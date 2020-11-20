@@ -1,0 +1,23 @@
+.page {
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+  font-weight: 400;
+  text-transform: uppercase;
+  background-color: $white;
+}
+
+.page__body {
+  min-width: 320px;
+  margin: 0;
+  padding: 0;
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+  font-weight: 400;
+  text-transform: uppercase;
+  background-color: $white;
+}

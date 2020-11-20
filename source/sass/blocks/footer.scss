@@ -1,0 +1,54 @@
+.footer {
+  margin: 0 20px;
+  padding-top: 30px;
+}
+
+.footer__contacts {
+  text-align: center;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  margin-top: -13px;
+}
+
+//
+.footer__contacts:last-child {
+}
+
+.footer__hashtag {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  color: $font-color-title;
+  padding-bottom: 35px;
+  margin: 0;
+}
+
+.footer__social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @include style-reset;
+}
+
+.social__link {
+  width: 46px;
+  height: 48px;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+.social__link:not(:last-child) {
+  margin-right: 6px;
+}
+
+.copyright {
+}
+
+.copyright__text {
+  font-size: 14px;
+  line-height: 26px;
+  color: $font-color-base;
+  margin: 0;
+}

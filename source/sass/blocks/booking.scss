@@ -1,0 +1,24 @@
+.booking{
+  margin: 0 20px;
+  padding-top: 35px;
+  padding-bottom: 50px;
+}
+
+.booking__title {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  text-align: center;
+  color: $font-color-title;
+  margin: 0;
+  padding-bottom: 32px;
+}
+
+.booking__description {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400px;
+  text-align: center;
+  color: $font-color-base;
+  padding-bottom: 30px;
+}
