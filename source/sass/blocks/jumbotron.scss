@@ -1,16 +1,15 @@
 .jumbotron {
     background-color: $background-img;
-    background-image: url("source/img/intro-triangle.svg"), url("/img/back-mobile.jpg");
+    background-image: url("../img/intro-triangle.svg"), url("../img/back-mobile.jpg");
     min-height: 159px;
     background-repeat: no-repeat, no-repeat;
-    // background-size: 100% auto, cover;
-    // background-position: 0 100%, 0 0;
+    background-size:  100 auto, cover;
+    background-position: 0 100%, 0 0;
     /* padding: 77px 0 81px; */
   }
 
 .jumbotron--index {
     min-height: 389px;
-    background-image:url("source/img/back-mobile.jpg");
 }
 
 .jumbotron__welcome {
