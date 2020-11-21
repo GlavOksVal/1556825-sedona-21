@@ -1,20 +1,20 @@
 // Начните писать стили здесь
 @import "variables.scss";
-
-@import "mix/style-reset.scss";
-
+@import "blocks/mixins.scss";
 @import "global/fonts.scss";
-@import "global/olding.scss";
-
+@import "global/global.scss";
 @import "blocks/page.scss";
 @import "blocks/container.scss";
-@import "blocks/header-navigation.scss";
+@import "blocks/header.scss";
 @import "blocks/menu.scss";
-@import "blocks/main.scss";
+@import "blocks/jumbotron.scss";
+@import "blocks/description.scss";
 @import "blocks/advantages.scss";
 @import "blocks/booking.scss";
 @import "blocks/map.scss";
 @import "blocks/footer.scss";
+@import "blocks/social.scss";
+@import "blocks/copyright.scss";
 @import "blocks/button.scss";
 
 

@@ -1,5 +1,5 @@
 .menu {
-  @include style-reset;
+  @include mixin;
   padding-bottom: 56px;
   margin: 0;
 }
@@ -28,4 +28,6 @@
   font-size: 18px;
   line-height: 40px;
   color: $white;
+  font-weight: bold;
+  line-height: 26px;
 }

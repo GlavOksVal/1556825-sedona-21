@@ -1,5 +1,5 @@
 .advantages__item {
-  @include style-reset;
+  @include mixin;
   margin: 0 20px;
 }
 

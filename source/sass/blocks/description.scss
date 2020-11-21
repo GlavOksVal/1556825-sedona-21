@@ -1,0 +1,33 @@
+.description {
+    padding: 43px 0 51px;
+}
+
+.description__content {
+    padding-top: 35px;
+    padding-bottom: 30px;
+    margin: 0 20px;
+    // /* width: 519px;
+    // margin: 0 auto; */
+    text-align: center;
+  }
+
+  .description__title {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: 700;
+    text-align: center;
+    color: $font-color-title;
+    padding-bottom: 44px;
+    // margin: 0;
+    margin: 0 0 43px;
+  }
+
+  .description__sublitle {
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    font-weight: 400;
+    color: $font-color-base;
+    margin: 0;
+  }
