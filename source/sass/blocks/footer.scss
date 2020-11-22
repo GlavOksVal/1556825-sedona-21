@@ -1,0 +1,37 @@
+.footer {
+  margin: 0 20px;
+  padding-top: 30px;
+  background-color: var(--white-09);
+  // /* display: grid; */
+  // /* grid-template-columns: 1fr 1fr 1fr; */
+  // /* justify-items: center; */
+  align-items: center;
+  padding: 36px 55px;
+  // /* z-index: 2; */
+
+}
+
+.footer__contacts {
+  text-align: center;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  margin-top: -13px;
+}
+
+.footer__hashtag {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  color: $font-color-title;
+  padding-bottom: 35px;
+  margin: 0;
+}
+
+.footer__social {
+  // display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @include mixin;
+}
