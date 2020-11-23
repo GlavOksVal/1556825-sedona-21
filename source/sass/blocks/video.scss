@@ -1,0 +1,30 @@
+.video {
+  padding-top: 32px;
+  padding-bottom: 50px;
+}
+
+.video__title {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 42px;
+}
+
+.video__subtitle {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.video__preview {
+  background-color: $background-color-photo;
+}
+
+.video__control {
+  margin: 0 20px;
+  background-color: $background-color-photo;
+  height: 66px;
+}

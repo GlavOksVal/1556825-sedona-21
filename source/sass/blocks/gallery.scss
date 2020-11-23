@@ -1,0 +1,33 @@
+.gallery {
+  @include mixin;
+}
+
+.gallery__item {
+  padding-top: 20px;
+  padding-bottom: 21px;
+}
+
+.gallery__name {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  text-align: left;
+  color: $font-color-title;
+  margin-bottom: 15px;
+}
+
+.gallery__author {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: left;
+  color: $font-color-base;
+  margin-bottom: 15px;
+}
+
+.gallery__like {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: $font-color-title;
+}
