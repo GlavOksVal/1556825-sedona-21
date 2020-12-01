@@ -1,6 +1,32 @@
+
 .copyright__text {
   font-size: 14px;
   line-height: 26px;
-  color: $font-color-base;
   margin: 0;
+}
+
+.copyright__link {
+  position: relative;
+  display: block;
+  color: $black;
+  padding-right: 38px;
+}
+
+.copyright__logo {
+  position: absolute;
+  right: -1px;
+  top: -4px;
+  width: 27px;
+  height: 34px;
+  fill: $black;
+
+  &:hover {
+    fill: $background-btn;
   }
+
+  &:active {
+    fill: $black;
+    opacity: 0.3;
+  }
+}
+

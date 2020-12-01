@@ -1,37 +1,32 @@
 .button {
-  // /* outline: none;
-  // display: inline-block; */
-
   display: block;
   box-sizing: border-box;
   text-align: center;
-  font-weight: bold;
-  text-transform: uppercase;
   padding: 13px 10px;
-  border: 3px solid $background-button;
+  border: 3px solid $background-btn;
+  font-family: $font-family-base;
   font-size: 21px;
   font-weight: 700;
   line-height: 26px;
+  text-transform: uppercase;
   color: $font-color-second;
   text-decoration: none;
-  background-color: $background-button;
+  background-color: $background-btn;
   cursor: pointer;
-  border: 0;
 
   &:hover {
-    border-color: $background-button--hover;
-    background-color: $background-button--hover;
+    border-color: $background-btn--hover;
+    background-color: $background-btn--hover;
   }
 
   &:active {
-    border-color: $background-button--active;
-    background-color: $background-button--active;
-    color: $white-03;
+    border-color: $background-btn--active;
+    background-color: $background-btn--active;
+    color: rgba($font-color-second, 0.3);
   }
 
   &:disabled {
-    border-color: $background-button--disabled;
-    background-color: $background-button--disabled;
+    border-color: $background-btn--disabled;
+    background-color: $background-btn--disabled;
   }
 }
-

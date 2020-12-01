@@ -1,24 +1,48 @@
-/*jumbotron*/
 .jumbotron {
-  background-color: $background-img;
-  background-image: url("../img/intro-triangle.svg"), url("../img/back-mobile.jpg");
-  min-height: 389px;
-  background-repeat: no-repeat, no-repeat;
-  background-size:  100 auto, cover;
-  background-position: 0 100%, 0 0;
-  /* padding: 77px 0 81px; */
+  background-color: $background-color-second;
+  min-height: 159px;
+  // background-image: url("../img/intro-triangle.svg"), url("../img/back-mobile.jpg");
+  // background-repeat: no-repeat, no-repeat;
+  // background-size:  100 auto, cover;
+  // background-position: 0 100%, 0 0;
 
-  @media(min-width: $tablet-width) {
-   min-height: 518px;
+}
+
+@media (min-width: $tablet-width) {
+  .jumbotron {
+    min-height: 291px;
   }
+}
 
-  @media( min-width: $desktop-width) {
+@media (min-width: $desktop-width) {
+  .jumbotron {
+    min-height: 305px;
+  }
+}
+
+.jumbotron .jumbotron--index {
+  min-height: 389px;
+}
+
+@media (min-width: $tablet-width) {
+  .jumbotron .jumbotron--index {
     min-height: 518px;
   }
 }
 
-.jumbotron__welcome {
-  /* display: block; */
-  width: 282px;
-  margin: 0 auto;
+.jumbotron--img {
+  position: relative;
+}
+
+.jumbotron.jumbotron--index .jumbotron__welcome {
+  position: absolute;
+  left: 50%;
+  top: 90px;
+  transform: translate(-50%);
+}
+
+.jumbotron .jumbotron__welcome {
+  position: absolute;
+  transform: translate(-50%);
+  left: 50%;
 }

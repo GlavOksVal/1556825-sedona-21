@@ -1,52 +1,42 @@
-$black: #000000;
-$white: #FFFFFF;
-$black-03: rgba(0, 0, 0, 0.3);
-$shadow-03: rgba(0, 0, 0, 0.25);
-$white-03: rgba(255, 255, 255, 0.3);
-
 $background-page: #e7e5e5;
+
 $background-body-base: #ffffff;
-$background-img: #ddebf4;
-$background-blue: #81B3D2;
-$background-gray: #EEEEEE;
-$background-map: #EEEEEE;
-$background-color-photo: #EAEAEA;
-$background-color: #F2F2F2;
+$background-block: #eeeeee;
+$background-block-second: #81b3d2;
+
+$background-color-second: #ddebf4;
+
+$background-color-map: #eeeeee;
+$background-color-photo: #eaeaea;
+
 $background-input: #f2f2f2;
+$background-input--active: #d5d5d5;
+
+$input-block: #e6e6e6;
+
+$black: #000000;
+$white: #ffffff;
+
+$font-color-base: #333333;
+$font-color-second: $white;
+$font-color-title: $black;
+
+$menu-active: #766357;
+$menu-hover: #604e43;
+
 
 $font-family-base: "PT Sans", "Arial", sans-serif;
 $font-size-base: 14px;
 $line-height-base: 21px;
 
-$font-color-title: #000000;
-$font-color-second: #FFFFFF;
-$font-color-base: #333333;
-$font-color-hover: #81B3D2;
-// $font-color-down: #000000,0.3;
-$font-color-active: #766357;
-$font-color-active-hover: #604E43;
-// $font-color-active-down: #766357,0.3;
+$background-btn: #81b3d2;
+$background-btn--hover: #669ec0;
+$background-btn--active: #5496bd;
+$background-btn--disabled:#e5e5e5;
 
-$background-button: #81B3D2;
-$background-button--hover: #669EC0;
-$background-button--active: #5496BD;
-$background-button--disabled: #E5E5E5;
-// $font-button-down: #FFFFFF,0.3;
-
-$background-logo: #000000;
-$background-logo-hover: #81B3D2;
-// $background-logo-down: #000000,0.3;
 
 $border-color: #d6d6d6;
 
 $tablet-width: 768px;
 $desktop-width: 1200px;
-$mobile-width-only: 767px;
-
-// гамбургер
-// mobile-menu-close-hover: #81B3D2,0.6;
-// mobile-menu-close-down: #81B3D2,0.3;
-
-// крестик
-// mobile-menu-close-hover: #FFFFFF,0.6;
-// mobile-menu-close-down: #FFFFFF,0.3;
+$mobile-width-only: 320px;
