@@ -1,0 +1,106 @@
+.fieldset-impression {
+    border-bottom: 1px solid $border-color;
+  }
+
+.fieldset-impression__title {
+font-size: 18px;
+line-height: 26px;
+font-weight: 700;
+padding-top: 20px;
+padding-bottom: 37px;
+text-align: center;
+}
+
+.fieldset-impression__label {
+    display: block;
+    text-transform: none;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 700;
+    position: relative;
+    padding-left: 78px;
+    padding-bottom: 43px;
+    cursor: pointer;
+  }
+
+  .fieldset-impression__label::before {
+    content: "";
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    background-color: $background-input;
+    left: 0;
+    top: -15px;
+    border-radius: 50%;
+  }
+
+  .fieldset-impression__label:hover::before {
+    background-color: $background-btn--disabled;
+  }
+
+  .fieldset-impression__label:active::before {
+    background-color: $background-input--active;
+  }
+
+  .fieldset-impression__label:active::after {
+    opacity: 0.3;
+  }
+
+
+  .fieldset-impression__label::after {
+    content: "";
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    background-image: url("../../img/radio-dot.svg");
+    background-position: center;
+    background-size: 22px 22px;
+    left: 17px;
+    top: 1px;
+    display: none;
+  }
+
+  .fieldset-impression__input:checked + .fieldset-impression__label::after {
+    display: block;
+  }
+
+  @media (min-width: $tablet-width) {
+    .fieldset-impression {
+      grid-row: 1/2;
+      grid-column: 1/2;
+      border-bottom: none;
+    }
+
+    .fieldset-impression__title {
+      font-size: 21px;
+      text-align: left;
+      padding: 0 0 72px 0;
+    }
+
+    .fieldset-impression__label {
+      padding: 0 0 52px 75px;
+    }
+
+    .fieldset-impression__label[for="no_answer"] {
+      padding-bottom: 60px;
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    .fieldset-impression__title {
+      margin-left: 79px;
+    }
+
+    .fieldset-impression__label {
+      padding-left: 80px;
+    }
+
+    .fieldset-impression__label::before {
+      left: 6px;
+    }
+
+    .fieldset-impression__label::after {
+      left: 22px;
+    }
+  }
+

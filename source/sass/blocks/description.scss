@@ -80,3 +80,30 @@
 }
 
 //
+
+.description__content--form .description__sublitle {
+  line-height: 24px;
+}
+
+.description.description__content--form {
+  padding-top: 35px;
+  padding-bottom: 15px;
+}
+
+@media (min-width: $tablet-width) {
+  .description.description__content--form {
+    padding-top: 51px;
+    padding-bottom: 88px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .description.description__content--form {
+    padding-top: 85px;
+    padding-bottom: 58px;
+  }
+
+  .description__title--form {
+    padding-bottom: 34px;
+  }
+}

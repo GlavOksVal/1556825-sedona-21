@@ -1,0 +1,51 @@
+.fieldset-emotions {
+    padding: 0 20px;
+    display: flex;
+  }
+
+  .fieldset-emotions__title {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .fieldset-emotions__textarea {
+    flex-grow: 1;
+    height: 145px;
+    border: none;
+    resize: none;
+    background-color: $background-input;
+    margin-bottom: 51px;
+    padding-top: 13px;
+    padding-left: 21px;
+    padding-right: 10px;
+    font-family: $font-family-base;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 700;
+  }
+
+  @media (min-width: $tablet-width) {
+    .fieldset-emotions {
+      grid-row: 4/5;
+      grid-column: 1/3;
+      padding: 0;
+      border-top: 2px solid $border-color;
+    }
+
+    .fieldset-emotions__title {
+      font-size: 21px;
+      padding: 19px 75px 20px;
+      margin-bottom: 36px;
+    }
+
+    .fieldset-emotions__textarea {
+      padding-top: 18px;
+      height: 140px;
+      margin-bottom: 58px;
+    }
+  }
+
