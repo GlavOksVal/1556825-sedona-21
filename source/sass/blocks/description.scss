@@ -1,38 +1,82 @@
 .description {
-    padding: 43px 0 51px;
-    background-image: url(../img/white-copy-2.svg);
-    background-repeat: no-repeat;
-    background-size:  100% 20%, cover;
-    background-position: 0 100%;
-background-color: blue;
+  padding: 35px 20px 30px;
+  border-bottom: 1px solid $border-color;
+  // background-image: url(../img/white-copy-2.svg);
+  // background-repeat: no-repeat;
+  // background-size: 100% 20%, cover;
+  // background-position: 0 100%;
+  // background-color: blue;
+}
+
+@media (min-width: $tablet-width) {
+  .description{
+    padding: 35px 20px 53px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .description {
+    padding: 36px 20px 40px;
+  }
 }
 
 .description__content {
-    // padding-top: 35px;
-    padding-bottom: 30px;
-    margin: 0 20px;
-    // width: 519px;
-    // margin: 0 auto;
-    text-align: center;
- }
+  max-width: 450px;
+  margin: 0 auto;
 
-  .description__title {
-    font-weight: bold;
+  &--form {
+    max-width: 440px;
+    margin: 0 auto;
+  }
+
+  &--catalog {
+    max-width: 440px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .description__content {
+    max-width: 490px;
+    margin: 0 auto;
+  }
+
+  .description {
+    border-bottom: none;
+  }
+}
+
+.description__title {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+  text-align: center;
+  color: $font-color-title;
+  padding: 0 10px 30px;
+  margin: 0;
+}
+
+@media (min-width: $tablet-width) {
+  .description__title{
     font-size: 21px;
-    line-height: 26px;
-    font-weight: 700;
-    text-align: center;
-    color: $font-color-title;
-    padding-bottom: 44px;
-    margin: 0;
-    // margin: 0 0 43px;
+    padding: 10px 10px 30px;
   }
+  //
+}
 
-  .description__sublitle {
-    font-size: 14px;
-    line-height: 26px;
-    text-align: center;
-    font-weight: 400;
-    color: $font-color-base;
-    margin: 0;
+@media (min-width: $desktop-width) {
+  .description__title {
+    padding: 22px 10px 30px;
   }
+}
+
+.description__sublitle {
+  font-size: 14px;
+  line-height: 26px;
+  text-align: center;
+  font-weight: 400;
+  color: $font-color-base;
+  margin: 0;
+}
+
+//

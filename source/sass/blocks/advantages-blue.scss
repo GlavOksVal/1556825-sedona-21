@@ -1,0 +1,110 @@
+@media (min-width: $tablet-width) {
+  .advantages-blue {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .advantages-blue.advantages-blue--reverse {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+}
+
+.advantages-blue__box {
+  padding: 50px 13px 39px 13px;
+  text-align: center;
+  color: $font-color-second;
+  background-color: $background-block-second;
+}
+
+.advantages-blue--reverse .advantages-blue__box{
+  padding-top: 38px;
+  padding-bottom: 35px;
+}
+
+@media (min-width: $tablet-width) {
+  .advantages-blue__box {
+    max-height: 256px;
+    padding: 40px 32px 43px;
+  }
+
+  .advantages-blue--reverse .advantages-blue__box {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    max-height: 256px;
+    padding: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .advantages-blue__box {
+    padding: 47px 52px 56px 53px;
+  }
+}
+
+.advantages-blue__title {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: bold;
+  padding-bottom: 12px;
+  margin: 0;
+}
+
+@media (min-width: $tablet-width) {
+  .advantages-blue__title {
+    font-size: 21px;
+    padding: 0 34px 14px;
+  }
+
+  .advantages-blue--reverse .advantages-blue__title {
+    padding: 44px 53px 13px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .advantages-blue__title {
+    padding: 0 85px 14px;
+  }
+
+  .advantages-blue--reverse .advantages-blue__title {
+    padding: 51px 125px 13px;
+  }
+}
+
+.advantages-blue__number{
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  padding-bottom: 16px;
+  margin: 0;
+}
+
+@media (min-width: $tablet-width) {
+  .advantages-blue__number {
+    padding-bottom: 23px;
+  }
+}
+
+.advantages-blue__description {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  margin: 0;
+}
+
+@media (min-width: $tablet-width) {
+  .advantages-blue--reverse .advantages-blue__description {
+    padding: 0 40px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .advantages-blue__description {
+    padding: 0 16px;
+  }
+
+  .advantages-blue--reverse .advantages-blue__description {
+    padding: 0 86px;
+  }
+}
+

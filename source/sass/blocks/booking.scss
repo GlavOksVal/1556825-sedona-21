@@ -1,15 +1,15 @@
-.booking{
-  margin: 0 20px;
-  padding-top: 35px;
-  padding-bottom: 50px;
-  // /* line-height: 24px;
-  // padding-top: 58px; */
+.booking {
+  padding-top: 37px;
+  padding-bottom: 49px;
 }
 
 .booking__content {
-  width: 435px;
+  max-width: 498px;
   margin: 0 auto;
-  text-align: center;
+}
+
+.hotel-comma {
+  display: none;
 }
 
 .booking__title {
@@ -18,8 +18,8 @@
   font-weight: 700;
   text-align: center;
   color: $font-color-title;
-  margin: 0 0 30px;
-  padding-bottom: 32px;
+  margin: 0 20px;
+  padding-bottom: 21px;
 }
 
 .booking__description {
@@ -28,11 +28,42 @@
   font-weight: 400px;
   text-align: center;
   color: $font-color-base;
-  padding-bottom: 30px;
-  // /* margin-bottom: 44px; */
+  padding-bottom: 27px;
+  margin: 0 20px;
 }
 
 .booking__button {
-  /* display: block; */
-  margin: 0 auto;
+  margin: 0 20px;
 }
+
+//
+@media (min-width: $tablet-width) {
+  .booking {
+    padding-top: 57px;
+    padding-bottom: 58px;
+  }
+
+  .booking__title {
+    font-size: 30px;
+    padding-bottom: 33px;
+  }
+
+  .booking__description {
+    padding: 0 10px 38px;
+  }
+
+  .hotel-comma {
+    display: block;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .booking {
+    padding-bottom: 66px;
+  }
+
+  .booking__description {
+    padding-bottom: 43px;
+  }
+}
+
