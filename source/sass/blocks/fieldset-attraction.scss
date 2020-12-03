@@ -18,11 +18,11 @@
     display: block;
     position: relative;
     padding-bottom: 54px;
-    padding-left: 69px;
+    padding-left: 79px;
     cursor: pointer;
   }
 
-  .fieldset-attraction__label[for="red-rocks"] {
+  .fieldset-attraction__label[for="red_rocks"] {
     padding-bottom: 10px;
   }
 
@@ -38,19 +38,7 @@
   }
 
 
-  .fieldset-attraction__label::after {
-    content: "";
-    position: absolute;
-    width: 23px;
-    height: 16px;
-    background-image: url("../../img/tick.svg");
-    left: 16px;
-    top: 5px;
-    display: none;
-  }
-
-
-  .fieldset-attraction__label:hover::before {
+   .fieldset-attraction__label:hover::before {
     background-color: $background-btn--disabled;
   }
 
@@ -62,7 +50,18 @@
     opacity: 0.3;
   }
 
-  .fieldset-attraction__input:checked + .fieldset-attractions__label::after {
+  .fieldset-attraction__label::after {
+    content: "";
+    position: absolute;
+    width: 23px;
+    height: 16px;
+    background-image: url("../../img/tick.svg");
+    left: 16px;
+    top: 5px;
+    display: none;
+  }
+
+  .fieldset-attraction__input:checked + .fieldset-attraction__label::after {
     display: block;
   }
 

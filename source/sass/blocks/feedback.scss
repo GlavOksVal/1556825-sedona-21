@@ -1,3 +1,22 @@
+.feedback__form-fieldset {
+  margin: 0;
+  padding: 0 20px;
+  border: none;
+}
+
+.feedback__form-required--field {
+  display: none;
+}
+
+.feedback__form-button--wrap {
+  display: flex;
+  padding: 0 20px 37px;
+  justify-content: center;
+}
+
+.feedback__form-button {
+  flex-grow: 1;
+}
 
 @media (min-width: $tablet-width) {
     .feedback__form {
@@ -22,9 +41,6 @@
     .feedback__form-fieldset {
       padding: 0;
     }
-              // feedback__form-button--wrap = review-form__button-wrapper
-              // feedback__form-button = review-form__button
-              // feedback__form--required-field = review-form__required-field-note
 
     .feedback__form-button--wrap {
       grid-row: 5/6;
@@ -64,22 +80,3 @@
 
 
 
-  .feedback__form-fieldset {
-    margin: 0;
-    padding: 0 20px;
-    border: none;
-  }
-
-  .feedback__form-required--field {
-    display: none;
-  }
-
-  .feedback__form-button--wrap {
-    display: flex;
-    padding: 0 20px 37px;
-    justify-content: center;
-  }
-
-  .feedback__form-button {
-    flex-grow: 1;
-  }

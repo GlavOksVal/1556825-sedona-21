@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html class="page" lang="ru">
 
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=divice-width,initial-scale=1">
-    <title>HTML Academy: Седона</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=divice-width,initial-scale=1">
+  <title>HTML Academy: Седона</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
 
 <body class="page__body">
   <div class="container">
 
     <header class="header">
       <nav class="header__navigation header__navigation--opened header__navigation--nojs">
-        <a class="header__logo logo">
+        <a class="header__logo logo" href="index.html">
           <img class="logo__img" src="img/logotype-mobile.svg" width="102" height="84" alt="Логотип проект Седона">
         </a>
 
         <ul class="header__menu menu">
           <li class="menu__item">
-            <a class="menu__link  menu__link--active" href="">Главная</a> </li>
+            <a class="menu__link  menu__link--active" href="index.html">Главная</a> </li>
 
           <li class="menu__item">
             <a class="menu__link" href="catalog.html">Фото и Видео</a></li>
@@ -51,7 +51,7 @@
         <h1 class="visually-hidden">Проект "Седона"</h1>
         <div class="description__content description__content--form">
           <h2 class="description__title description__title--form">Оставьте свой отзыв</h2>
-          <p class="description__sublitle">Помогите нашим отелям стать лучше! Оставьте отзыв о них,  а также о посещенных
+          <p class="description__sublitle">Помогите нашим отелям стать лучше! Оставьте отзыв о них, а также о посещенных
             вами достопримечательностях</p>
         </div>
       </section>
@@ -139,33 +139,33 @@
 
           <fieldset class="feedback__form-fieldset fieldset-attraction">
             <legend class="fieldset-attraction__title">Посещенные достопримечательности:</legend>
-            <div class="fieldset-attraction__wrap wrap-input">
-              <div class="fieldset-attraction__checkbox">
+            <ul class="fieldset-attraction__wrap wrap-input">
+              <li class="fieldset-attraction__checkbox">
                 <input class="fieldset-attraction__input visually-hidden" id="devils_bridge" name="devils_bridge"
                   type="checkbox" checked>
                 <label class="fieldset-attraction__label" for="devils_bridge">Мост Дьявола</label>
-              </div>
-              <div class="fieldset-attraction__checkbox">
+              </li>
+              <li class="fieldset-attraction__checkbox">
                 <input class="fieldset-attraction__input visually-hidden" id="mountain_bell" name="mountain_bell"
                   type="checkbox" checked>
                 <label class="fieldset-attraction__label" for="mountain_bell">Гора-Колокол</label>
-              </div>
-              <div class="fieldset-attraction__checkbox">
+              </li>
+              <li class="fieldset-attraction__checkbox">
                 <input class=" fieldset-attraction__input visually-hidden" id="slide_park" name="slide_park"
                   type="checkbox" checked="checked">
                 <label class="fieldset-attraction__label" for="slide_park">Слайд-парк</label>
-              </div>
-              <div class="fieldset-attraction__checkbox">
+              </li>
+              <li class="fieldset-attraction__checkbox">
                 <input class="fieldset-attraction__input visually-hidden" id="red_rocks" name="red_rocks"
                   type="checkbox">
                 <label class="fieldset-attraction__label" for="red_rocks">Красные скалы</label>
-              </div>
-            </div>
+              </li>
+            </ul>
           </fieldset>
 
           <fieldset class="feedback__form-fieldset fieldset-emotions">
             <legend class="fieldset-emotions__title">Опишите свои эмоции:</legend>
-            <textarea class="fieldset-emotions__textarea" name="message" id="message" cols="30" rows="10"
+            <textarea class="fieldset-emotions__textarea" name="message" id="message" cols="" rows=""
               placeholder="Опишите подробно все свои восторги">
             </textarea>
           </fieldset>
@@ -181,7 +181,7 @@
     <footer class="footer">
       <div class="footer__unit contacts">
         <h2 class="visually-hidden">Контакты</h2>
-        <a class="footer__hashtag" href="#">#VISITSEDONA</a>
+        <p class="footer__hashtag" href="#">#VISITSEDONA</p>
       </div>
 
       <div class="footer__unit">

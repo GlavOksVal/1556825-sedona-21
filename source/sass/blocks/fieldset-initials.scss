@@ -29,6 +29,7 @@
   height: 58px;
   background-color: $background-input;
   border: none;
+  width: 100px;
 }
 
 .fieldset-initials__input:hover {
@@ -49,11 +50,11 @@
 
 //
 
-@media (max-width: $mobile-width-only) {
-  .fieldset-initials__input {
-    width: 100px;
-  }
-}
+// @media (max-width: $mobile-width-only) {
+//   .fieldset-initials__input {
+//     width: 100px;
+//   }
+// }
 
 @media (min-width: $tablet-width) {
   .fieldset-initials {
