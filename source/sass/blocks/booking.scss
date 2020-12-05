@@ -39,7 +39,7 @@
 //
 @media (min-width: $tablet-width) {
   .booking {
-    padding-top: 57px;
+    padding-top: 59px;
     padding-bottom: 58px;
   }
 
@@ -55,6 +55,11 @@
   .hotel-comma {
     display: block;
   }
+
+  .booking__button {
+    width: 458px;
+    margin: 0 auto;
+  }
 }
 
 @media (min-width: $desktop-width) {
@@ -66,4 +71,3 @@
     padding-bottom: 43px;
   }
 }
-

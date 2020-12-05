@@ -1,6 +1,7 @@
 .jumbotron {
   background-color: $background-color-second;
-  min-height: 159px;
+  // min-height: 159px;
+  min-height: 389px;
   // background-image: url("../img/intro-triangle.svg"), url("../img/back-mobile.jpg");
   // background-repeat: no-repeat, no-repeat;
   // background-size:  100 auto, cover;
@@ -10,13 +11,16 @@
 
 @media (min-width: $tablet-width) {
   .jumbotron {
-    min-height: 291px;
+    // min-height: 291px;
+    min-height: 518px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .jumbotron {
-    min-height: 305px;
+    // min-height: 305px;
+    min-height: 518px;
+
   }
 }
 
@@ -32,6 +36,7 @@
 
 .jumbotron--img {
   position: relative;
+  overflow: hidden;
 }
 
 .jumbotron.jumbotron--index .jumbotron__welcome {
@@ -41,8 +46,27 @@
   transform: translate(-50%);
 }
 
+@media (min-width: $tablet-width) {
+  .jumbotron.jumbotron--index .jumbotron__welcome {
+    top: 77px;
+  }
+}
+
 .jumbotron .jumbotron__welcome {
   position: absolute;
   transform: translate(-50%);
   left: 50%;
+  top: 52px;
+}
+
+@media (min-width: $tablet-width) {
+  .jumbotron .jumbotron__welcome {
+    top: 95px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .jumbotron .jumbotron__welcome{
+    top: 102px;
+  }
 }
