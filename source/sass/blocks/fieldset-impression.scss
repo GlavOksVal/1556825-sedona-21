@@ -74,7 +74,8 @@ text-align: center;
     .fieldset-impression__title {
       font-size: 21px;
       text-align: left;
-      padding: 0 0 72px 0;
+      // padding: 0 0 72px 0;
+      padding: 52px 0 72px 0;
     }
 
     .fieldset-impression__label {
@@ -89,6 +90,7 @@ text-align: center;
   @media (min-width: $desktop-width) {
     .fieldset-impression__title {
       margin-left: 79px;
+      padding-top: 17px;
     }
 
     .fieldset-impression__label {
