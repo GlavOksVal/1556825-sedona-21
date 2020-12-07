@@ -1,0 +1,137 @@
+.control-panel__buttons {
+  position: absolute;
+  width: 100%;
+  height: 66px;
+  bottom: 0;
+  z-index: 40;
+  background-color: $background-input;
+  display: flex;
+  align-items: center;
+}
+
+.control-panel__scale {
+  position: relative;
+  z-index: 20;
+  margin: 21px;
+  height: 3px;
+  background-color: rgba($white, 0.3);
+}
+
+.control-panel__slider {
+  position: absolute;
+  padding: 0;
+  width: 9px;
+  height: 9px;
+  top: 50%;
+  left: 15.5%;
+  transform: translateY(-50%);
+  background-color: $white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.control-panel__button {
+  position: absolute;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+
+  &--replay {
+    left: 9%;
+  }
+
+  &--subtitles {
+    right: 26%;
+  }
+
+  &--fullscreen {
+    right: 9%;
+  }
+}
+
+.control-panel__button .control-panel__icon {
+  fill: $video-button-gray;
+
+  &:hover {
+    fill: $font-color-base;
+  }
+
+  &:active {
+    fill: rgba($font-color-base, 0.3);
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .control-panel__buttons {
+    height: 0;
+  }
+
+  .control-panel__scale {
+    margin: 45px 166px 45px 93px;
+  }
+
+  .control-panel__slider {
+    left: 29%;
+  }
+
+  .control-panel__button .control-panel__icon {
+    fill: $white;
+
+    &:hover {
+      fill: rgba($white, 0.6);
+    }
+
+    &:active {
+      fill: rgba($white, 0.3);
+    }
+  }
+
+  .control-panel__button {
+    position: absolute;
+    border: none;
+    padding: 0;
+    bottom: 34px;
+    background-color: transparent;
+    cursor: pointer;
+
+    &--replay {
+      left: 5.4%;
+    }
+
+    &--subtitles {
+      right: 14.2%;
+    }
+
+    &--fullscreen {
+      right: 6.4%;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .control-panel__button {
+    position: absolute;
+    border: none;
+    padding: 0;
+    bottom: 34px;
+    background-color: transparent;
+    cursor: pointer;
+
+    &--replay {
+      left: 4.4%;
+    }
+
+    &--subtitles {
+      right: 11.9%;
+    }
+
+    &--fullscreen {
+      right: 5.4%;
+    }
+  }
+
+  .control-panel__slider {
+    left: 20.5%;
+  }
+}
