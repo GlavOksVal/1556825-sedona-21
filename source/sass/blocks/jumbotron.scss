@@ -1,7 +1,7 @@
 .jumbotron {
   background-color: $background-color-second;
-  // min-height: 159px;
-  min-height: 389px;
+  min-height: 159px;
+  // min-height: 389px;
   // background-image: url("../img/intro-triangle.svg"), url("../img/back-mobile.jpg");
   // background-repeat: no-repeat, no-repeat;
   // background-size:  100 auto, cover;
@@ -11,15 +11,15 @@
 
 @media (min-width: $tablet-width) {
   .jumbotron {
-    // min-height: 291px;
-    min-height: 518px;
+    min-height: 290px;
+    // min-height: 518px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .jumbotron {
-    // min-height: 305px;
-    min-height: 518px;
+    min-height: 301px;
+    // min-height: 518px;
 
   }
 }
