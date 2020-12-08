@@ -1,5 +1,5 @@
 .video {
-  padding-top: 32px;
+  padding-top: 29px;
   padding-bottom: 50px;
   position: relative;
 }
@@ -10,7 +10,7 @@
   line-height: 26px;
   font-weight: 700;
   text-align: center;
-  padding-bottom: 42px;
+  padding-bottom: 28px;
   margin: 0 auto;
 }
 
@@ -20,43 +20,66 @@
   line-height: 24px;
   font-weight: 400;
   text-align: center;
-  padding: 0 20px 32px;
+  padding: 0 25px 32px;
   margin: 0 auto;
 }
 
+.video__preview-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.video__control {
+  margin: 0 20px;
+  height: 111px;
+  min-width: 280px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -16px;
+  background-color: rgba($black, 0.6);
+}
+
 @media (min-width: $tablet-width) {
+  .video {
+    padding-top: 32px;
+  }
+
   .video__title {
     font-size: 30px;
+    padding-bottom: 33px;
+  }
+
+  .video__subtitle {
+    margin-bottom: 48px;;
   }
 
   .video__preview {
     padding: 0 60px;
   }
+  .video__control {
+    margin: 0 60px;
+    height: 93px;
+    bottom: 50px;
+  }
 }
 
 @media (min-width: $desktop-width) {
+  .video {
+    padding-top: 61px;
+  }
+
   .video__preview {
     margin: 0 200px;
   }
-}
-
-.video__control {
-  margin: 0 20px;
-  background-color: $background-color-photo;
-  height: 66px;
-}
-
-//
-@media (min-width: $tablet-width) {
-  .video__control {
-    margin: 0 60px;
-    top: -60px;
-    position: relative;
-  }
-}
-
-@media (min-width: $desktop-width) {
   .video__control {
     margin: 0 260px;
   }
+  .video__subtitle {
+    margin-bottom: 45px;
+  }
 }
+
+//
+
