@@ -1,16 +1,19 @@
 .description {
   padding: 35px 20px 30px;
   border-bottom: 1px solid $border-color;
-  // background-image: url(../img/white-copy-2.svg);
-  // background-repeat: no-repeat;
-  // background-size: 100% 20%, cover;
-  // background-position: 0 100%;
-  // background-color: blue;
+}
+
+.description.description__content.description__content--index {
+  padding: 35px 20px 10px;
 }
 
 @media (min-width: $tablet-width) {
   .description{
     padding: 35px 20px 53px;
+  }
+
+  .description.description__content.description__content--index {
+    padding-bottom: 53px;
   }
 }
 
@@ -21,6 +24,29 @@
 
   }
 }
+
+@media (min-width: $desktop-width) {
+  // .jumbotron.jumbotron--index {
+  //   background-image: url("../img/index-back-desktop.jpg");
+  //   background-repeat: no-repeat;
+  //   background-position: 50% 0;
+  //   background-size: cover;
+
+  //   @media (min-resolution: 2dppx) {
+  //     background-image: url("../img/index-back-desktop@2x.jpg");
+  //   }
+  // }
+
+  .description {
+    padding: 36px 20px 40px;
+  }
+
+  .description.description__content.description__content--index {
+    padding-bottom: 40px;
+  }
+}
+
+
 
 .description__content {
   max-width: 450px;
@@ -78,6 +104,11 @@
   .description__title {
     padding: 22px 10px 30px;
   }
+
+  // .description__title--catalog {
+  //   padding-bottom: 35px;
+  // }
+
 }
 
 .description__sublitle {
@@ -91,7 +122,8 @@
 
 //
 
-.description__content--form .description__sublitle {
+.description__content--form .description__sublitle,
+.description__content--catalog .description__sublitle  {
   line-height: 24px;
 }
 
@@ -100,16 +132,27 @@
   padding-bottom: 15px;
 }
 
+.description.description__content--catalog {
+  padding-top: 31px;
+}
+
+
 @media (min-width: $tablet-width) {
   .description.description__content--form {
     padding-top: 51px;
     padding-bottom: 88px;
   }
+
+  .description.description__content--catalog {
+    padding-top: 53px;
+    padding-bottom: 20px;
+  }
+
 }
 
 @media (min-width: $desktop-width) {
   .description.description__content--form {
-    padding-top: 85px;
+    padding-top: 90px;
     padding-bottom: 58px;
   }
 
@@ -117,7 +160,13 @@
     padding-bottom: 34px;
   }
 
-  .description__title--catalog {
-      font-size: 30px;
-    }
+  .description.description__content--catalog {
+    padding-top: 78px;
+    padding-bottom: 20px;
+    margin-bottom: 58px;
+  }
+
+  // .description__title--catalog {
+  //     font-size: 30px;
+  //   }
 }

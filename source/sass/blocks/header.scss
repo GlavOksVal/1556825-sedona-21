@@ -12,6 +12,30 @@
   }
 }
 
+.header__logo {
+  position: absolute;
+  bottom: -33px;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 10;
+}
+
+.header__toggle {
+  position: absolute;
+  bottom: 17px;
+  right: 20px;
+  z-index: 2;
+  width: 23px;
+  height: 22px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+
+  &:focus {
+    outline: none;
+  }
+}
+
 .header__navigation--closed .header__toggle::before {
   content: "";
   position: absolute;
@@ -72,27 +96,13 @@
   display: none;
 }
 
-.header__logo {
-  position: absolute;
-  bottom: -33px;
-  left: 50%;
-  transform: translate(-50%);
-  z-index: 10;
-}
-
-.header__toggle {
-  position: absolute;
-  bottom: 17px;
-  right: 20px;
-  z-index: 2;
-  width: 23px;
-  height: 22px;
-  cursor: pointer;
-  border: none;
-  background-color: transparent;
-
-  &:focus {
-    outline: none;
+@media (min-width: $desktop-width) {
+  .header__logo {
+    position: absolute;
+    bottom: -47px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 10;
   }
 }
 
