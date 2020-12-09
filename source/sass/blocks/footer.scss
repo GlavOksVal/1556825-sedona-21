@@ -36,9 +36,13 @@
 @media (min-width: $tablet-width) {
   .footer {
     // padding-top: 28px;
-    padding-top: 35px;
+    padding-top: 36px;
     flex-direction: row;
     justify-content: space-between;
+
+    // &--catalog {
+    //   padding-top: 26px;
+    // }
   }
 
   .footer__hashtag {
@@ -60,9 +64,11 @@
 }
 
 @media (min-width: $desktop-width) {
+
   .footer--catalog {
     padding-top: 72px;
   }
+
 
   .copyright__text {
     margin-left: 3px;

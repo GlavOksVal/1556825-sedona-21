@@ -23,6 +23,28 @@
   padding-bottom: 8px;
 }
 
-.social__link:active img {
+
+
+.icon-twitter {
+  width: 17px;
+  height: 15px;
+  fill: $white;
+}
+
+.icon-facebook {
+  width: 9px;
+  height: 19px;
+  fill: $white;
+}
+
+.icon-youtube {
+  width: 20px;
+  height: 14px;
+  fill: $white;
+}
+
+.social__link:active .icon-twitter,
+.social__link:active .icon-facebook,
+.social__link:active .icon-youtube {
   opacity: 0.3;
 }
