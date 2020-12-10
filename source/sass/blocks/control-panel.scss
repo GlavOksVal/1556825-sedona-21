@@ -57,6 +57,10 @@
     fill: $font-color-base;
   }
 
+  &:focus {
+    fill: $font-color-base;
+  }
+
   &:active {
     fill: rgba($font-color-base, 0.3);
   }
@@ -79,6 +83,10 @@
     fill: $white;
 
     &:hover {
+      fill: rgba($white, 0.6);
+    }
+
+    &:focus {
       fill: rgba($white, 0.6);
     }
 

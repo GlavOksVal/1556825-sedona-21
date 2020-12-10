@@ -178,6 +178,96 @@
   }
 }
 
+// CATALOG********************************************************
+
+.jumbotron--catalog {
+  // position: relative;
+  background-image: url("../img/back-mobile.jpg");
+  background-position-y: -53px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  @media (min-resolution: 2dppx) {
+    background-image: url("../img/back-mobile@2x.jpg");
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 57px;
+    background-image: url("../img/intro-triangle.svg");
+    background-repeat: no-repeat;
+    left: 50%;
+    bottom: -1px;
+    transform: translate(-50%);
+    background-size: 100% 100%;
+    z-index: 10;
+  }
+}
+
+// tablet
+@media (min-width: $tablet-width) {
+  // .jumbotron {
+  //   min-height: 290px;
+  // }
+
+  .jumbotron--catalog {
+    min-height: 290px;
+    background-image: url("../img/back-tablet.jpg");
+    background-position: 50% -56px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/back-tablet@2x.jpg");
+      background-size: cover;
+    }
+    &::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 57px;
+      background-image: url("../img/intro-triangle-t.svg");
+      background-repeat: no-repeat;
+      left: 50%;
+      bottom: -1px;
+      transform: translate(-50%);
+      background-size: 100% 100%;
+      z-index: 10;
+    }
+  }
+}
+
+// desktop
+@media (min-width: $desktop-width) {
+  .jumbotron--catalog {
+    min-height: 301px;
+    background-image: url("../img/back-desktop.jpg");
+    background-position: 50% -56px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/back-desktop@2x.jpg");
+      background-size: cover;
+    }
+    &::before {
+      content: "";
+      position: absolute;
+      background-image: url("../img/intro-triangle-d.svg");
+      background-repeat: no-repeat;
+      left: 50%;
+      bottom: -1px;
+      transform: translate(-50%);
+      width: 1200px;
+      height: 57px;
+      z-index: 10;
+    }
+  }
+}
+
+
 //
 
 
