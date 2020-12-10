@@ -14,7 +14,11 @@
     <header class="header">
       <nav class="header__navigation header__navigation--opened header__navigation--nojs">
         <a class="header__logo logo" href="index.html">
-          <img class="logo__img" src="img/logotype-mobile.svg" width="102" height="84" alt="Логотип проект Седона">
+          <picture>
+            <source media="(min-width: 1200px)" srcset="img/logotype-desktop.svg">
+            <source media="(min-width: 768px)" srcset="img/logotype-tablet.svg">
+            <img src="img/logotype-mobile.svg" alt="Логотип проект Седона">
+          </picture>
         </a>
 
         <ul class="header__menu menu">
@@ -43,8 +47,11 @@
     <main class="main">
       <section class="jumbotron jumbotron--img jumbotron--form">
         <h2 class="visually-hidden">Логитин проекта "Седона"</h2>
-        <img class="jumbotron__welcome" src="img/SEDONA.svg" width="282" height="214" alt="Sedona">
-        <!-- <img src="/img/text-index.svg"  src="img/back-mobile.jpg"> -->
+        <picture>
+          <source media="(min-width: 1200px)" srcset="img/text-sedona.svg">
+          <source media="(min-width: 768px)" srcset="img/text-sedona.svg">
+          <img class="jumbotron__welcome" src="img/text-sedona-mobile.svg" alt="Sedona">
+        </picture>
       </section>
 
       <section class="description">
@@ -189,17 +196,17 @@
           <h2 class="visually-hidden">Мы есть в социальных сетях сетях</h2>
           <li class="social__item">
             <a class="social__link button" href="#">
-              <img class="button__icon" src="/img/icons/icon-twitter.svg" width="17" height="15" alt="Twitter">
+              <img class="button__icon  icon-twitter" src="/img/icon-twitter.svg" width="17" height="15" alt="Twitter">
             </a>
           </li>
           <li class="social__item">
             <a class="social__link button" href="#">
-              <img class="button__icon" src="/img/icons/icon-facebook.svg" width="9" height="19" alt="Facebook">
+              <img class="button__icon icon-facebook" src="/img/icon-facebook.svg" width="9" height="19" alt="Facebook">
             </a>
           </li>
           <li class="social__item">
             <a class="social__link button" href="#">
-              <img class="button__icon" src="/img/icons/icon-youtube.svg" width="20" height="14" alt="Youtube">
+              <img class="button__icon icon-youtube" src="/img/icon-youtube.svg" width="20" height="14" alt="Youtube">
             </a>
           </li>
         </ul>

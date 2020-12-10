@@ -2,10 +2,6 @@
   padding-top: 35px;
   display: flex;
   flex-direction: column;
-
-  &catalog {
-    padding-top: 94px;
-  }
 }
 
 .footer__hashtag {
@@ -15,10 +11,6 @@
   color: $font-color-title;
   padding-bottom: 33px;
   margin: 0;
-
-  &catalog {
-    padding-top: 9426px;
-  }
 }
 
 .footer__unit {
@@ -68,7 +60,6 @@
   .footer--catalog {
     padding-top: 72px;
   }
-
 
   .copyright__text {
     margin-left: 3px;

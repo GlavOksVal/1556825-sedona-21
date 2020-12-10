@@ -3,8 +3,7 @@
   padding-bottom: 4px;
 }
 .fieldset-initials__title {
-  // padding-top: 20px;
-  padding-top: 6px;
+  // padding-top: 6px;
   padding-bottom: 20px;
   text-align: center;
   font-size: 18px;
@@ -52,12 +51,12 @@
 
 //
 
-// @media (max-width: $mobile-width-only) {
-//   .fieldset-initials__input {
-//     width: 100px;
-//   }
-// }
-
+@media (max-width: $mobile-width-only) {
+  .fieldset-initials__input {
+    width: 100px;
+  }
+}
+//
 @media (min-width: $tablet-width) {
   .fieldset-initials {
     grid-row: 1/2;
@@ -70,8 +69,8 @@
     font-size: 21px;
     text-align: right;
     margin-right: 105px;
-    // padding-top: 0;
-    padding-top: 49px;
+    padding-top: 0;
+    // padding-top: 49px;
     padding-bottom: 55px;
   }
 
@@ -105,9 +104,9 @@
     font-size: 21px;
     text-align: left;
     margin-left: 78px;
-    // padding-bottom: 55px;
-    padding-bottom: 59px;
-    padding-top: 15px;
+    padding-bottom: 55px;
+    // padding-bottom: 59px;
+    // padding-top: 15px;
   }
 
   .fieldset-initials__input[name="firstname"] {

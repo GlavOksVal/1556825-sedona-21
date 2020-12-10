@@ -30,7 +30,7 @@ background-color: $input-block;
 .fieldset-contact__box--number::after {
     content: "";
     position: absolute;
-    background-image: url("../../img/phone.svg");
+    background-image: url("../img/phone.svg");
     width: 18px;
     height: 18px;
     right: 20px;
@@ -104,8 +104,8 @@ padding-bottom: 11px;
 
 .fieldset-contact__title {
     padding-top: 25px;
-    // margin-bottom: 48px;
-    margin-bottom: 54px;
+    margin-bottom: 48px;
+    // margin-bottom: 54px;
 }
 
 .fieldset-contact__box {
