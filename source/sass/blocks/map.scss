@@ -1,9 +1,38 @@
+.map {
+  position:relative;
+  display: flex;
+  justify-content: center;
+  background-color: $background-color-map;
+  margin-top: -18px;
+}
+
 .map__iframe {
   background-color: $background-color-map;
   min-height: 350px;
   width: 100%;
+  // background-image: url("../img/map-mobile.jpg");
 }
-.map__img {
-  min-height: 350px;
-  width: 100%;
+
+.map__marker {
+  position: absolute;
+  padding-top: 160px;
+  height: 27px;
+  width: 27px;
 }
+
+@media (min-width: $tablet-width) {
+  .map {
+    margin-top: 0;
+  }
+  .map__marker {
+  padding-top: 162px;
+  padding-right: 5px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .map__marker {
+  padding-right: 5px;
+  }
+}
+
