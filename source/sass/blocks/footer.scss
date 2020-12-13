@@ -10,6 +10,7 @@
   font-weight: 700;
   color: $font-color-title;
   padding-bottom: 33px;
+  padding-top: 56px;
   margin: 0;
 }
 
@@ -28,7 +29,7 @@
 @media (min-width: $tablet-width) {
   .footer {
     // padding-top: 28px;
-    padding-top: 36px;
+    padding-top: 27px;
     flex-direction: row;
     justify-content: space-between;
 
@@ -56,9 +57,8 @@
 }
 
 @media (min-width: $desktop-width) {
-
-  .footer--catalog {
-    padding-top: 72px;
+  .footer {
+    padding-top: 39px;
   }
 
   .copyright__text {
