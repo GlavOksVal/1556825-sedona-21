@@ -23,16 +23,20 @@
 
         <ul class="header__menu menu">
           <li class="menu__item">
-            <a class="menu__link" href="index.html">Главная</a> </li>
+            <a class="menu__link" href="index.html">Главная</a>
+          </li>
 
           <li class="menu__item">
-            <a class="menu__link menu__link--active" href="catalog.html">Фото и Видео</a></li>
+            <a class="menu__link menu__link--active" href="catalog.html">Фото и Видео</a>
+          </li>
 
           <li class="menu__item">
-            <a class="menu__link  menu__item--right" href="form.html">Форма отзыва</a></li>
+            <a class="menu__link  menu__item--right" href="form.html">Форма отзыва</a>
+          </li>
 
           <li class="menu__item">
-            <a class="menu__link menu__item--right" href="">Html Academy</a></li>
+            <a class="menu__link menu__item--right" href="">Html Academy</a>
+          </li>
         </ul>
 
         <button class="header__toggle header__toggle--off" type="button">
@@ -71,6 +75,14 @@
             <div class="gallery__image">
               <a class="gallery__link" href="">
                 <picture>
+                  <source type="image/webp" media="(min-width: 1200px)"
+                    srcset="img/photo-1-desktop.webp 1x, img/photo-1-desktop@2x.webp 2x">
+
+                  <source type="image/webp" media="(min-width: 768px)"
+                    srcset="img/photo-1-tablet.webp 1x, img/photo-1-tablet@2x.webp 2x">
+
+                  <source type="image/webp" srcset="img/photo-1-mobile.wepb 1x, img/photo-1-mobile@2x.webp 2x">
+
                   <source media="(min-width: 1200px)"
                     srcset="img/photo-1-desktop.jpg 1x, img/photo-1-desktop@2x.jpg 2x">
 
@@ -87,10 +99,8 @@
               <p class="gallery__author">Автор фото: Борис</p>
               <div class="gallery__like">
                 <button class="gallery__like-button" aria-label="Лайк!">
-                  <svg class="gallery__like-icon" width="23" height="21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path opacity=".3"
-                      d="M12.964 3.78l-.628 3.045-.627 2.625h9.096v2.205L17.773 18.9h-9.41V8.4l4.6-4.62zM2.09 10.5v8.4-8.4zM13.8 0L6.9 6.93c-.418.315-.627.84-.627 1.47v10.5c0 1.155.94 2.1 2.09 2.1h9.41c.836 0 1.568-.525 1.881-1.26l3.137-7.455c.104-.21.104-.525.104-.735v-2.1H23c0-1.155-.94-2.1-2.09-2.1h-6.587l1.045-4.83v-.315c0-.42-.209-.84-.418-1.155L13.8 0zM4.182 8.4H0V21h4.182V8.4z"
-                      fill="#000" />
+                  <svg class="gallery__like-icon">
+                    <use xlink:href="img/sprite.svg#like-icon"></use>
                   </svg>
                 </button>
                 <span class="count">1350</span>
@@ -102,6 +112,14 @@
             <div class="gallery__image">
               <a class="gallery__link" href="">
                 <picture>
+                  <source type="image/webp" media="(min-width: 1200px)"
+                    srcset="img/photo-2-desktop.webp 1x, img/photo-2-desktop@2x.webp 2x">
+
+                  <source type="image/webp" media="(min-width: 768px)"
+                    srcset="img/photo-2-tablet.webp 1x, img/photo-2-tablet@2x.webp 2x">
+
+                  <source type="image/webp" srcset="img/photo-2-mobile.webp 1x, img/photo-2-mobile@2x.webp 2x">
+
                   <source media="(min-width: 1200px)"
                     srcset="img/photo-2-desktop.jpg 1x, img/photo-2-desktop@2x.jpg 2x">
 
@@ -118,10 +136,8 @@
               <p class="gallery__author">Автор фото: Сергей</p>
               <div class="gallery__like">
                 <button class="gallery__like-button" aria-label="Лайк!">
-                  <svg class="gallery__like-icon" width="23" height="21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path opacity=".3"
-                      d="M12.964 3.78l-.628 3.045-.627 2.625h9.096v2.205L17.773 18.9h-9.41V8.4l4.6-4.62zM2.09 10.5v8.4-8.4zM13.8 0L6.9 6.93c-.418.315-.627.84-.627 1.47v10.5c0 1.155.94 2.1 2.09 2.1h9.41c.836 0 1.568-.525 1.881-1.26l3.137-7.455c.104-.21.104-.525.104-.735v-2.1H23c0-1.155-.94-2.1-2.09-2.1h-6.587l1.045-4.83v-.315c0-.42-.209-.84-.418-1.155L13.8 0zM4.182 8.4H0V21h4.182V8.4z"
-                      fill="#000" />
+                  <svg class="gallery__like-icon">
+                    <use xlink:href="img/sprite.svg#like-icon"></use>
                   </svg>
                 </button>
                 <span class="count">143</span>
@@ -133,6 +149,14 @@
             <div class="gallery__image">
               <a class="gallery__link" href="">
                 <picture>
+                  <source type="image/webp" media="(min-width: 1200px)"
+                    srcset="img/photo-3-desktop.webp 1x, img/photo-3-desktop@2x.webp 2x">
+
+                  <source type="image/webp" media="(min-width: 768px)"
+                    srcset="img/photo-3-tablet.webp 1x, img/photo-3-tablet@2x.webp 2x">
+
+                  <source type="image/webp" srcset="img/photo-3-mobile.webp 1x, img/photo-3-mobile@2x.webp 2x">
+
                   <source media="(min-width: 1200px)"
                     srcset="img/photo-3-desktop.jpg 1x, img/photo-3-desktop@2x.jpg 2x">
 
@@ -149,10 +173,8 @@
               <p class="gallery__author">Автор фото: Петр</p>
               <div class="gallery__like">
                 <button class="gallery__like-button" aria-label="Лайк!">
-                  <svg width="23" height="21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path opacity=".3"
-                      d="M12.964 3.78l-.628 3.045-.627 2.625h9.096v2.205L17.773 18.9h-9.41V8.4l4.6-4.62zM2.09 10.5v8.4-8.4zM13.8 0L6.9 6.93c-.418.315-.627.84-.627 1.47v10.5c0 1.155.94 2.1 2.09 2.1h9.41c.836 0 1.568-.525 1.881-1.26l3.137-7.455c.104-.21.104-.525.104-.735v-2.1H23c0-1.155-.94-2.1-2.09-2.1h-6.587l1.045-4.83v-.315c0-.42-.209-.84-.418-1.155L13.8 0zM4.182 8.4H0V21h4.182V8.4z"
-                      fill="#000" />
+                  <svg class="gallery__like-icon">
+                    <use xlink:href="img/sprite.svg#like-icon"></use>
                   </svg>
                 </button>
                 <span class="count"> 96 </span>
@@ -164,6 +186,14 @@
             <div class="gallery__image">
               <a class="gallery__link" href="">
                 <picture>
+                  <source type="image/webp" media="(min-width: 1200px)"
+                    srcset="img/photo-4-desktop.webp 1x, img/photo-4-desktop@2x.webp 2x">
+
+                  <source type="image/webp" media="(min-width: 768px)"
+                    srcset="img/photo-4-tablet.webp 1x, img/photo-4-tablet@2x.webp 2x">
+
+                  <source type="image/webp" srcset="img/photo-4-mobile.webp 1x, img/photo-4-mobile@2x.webp 2x">
+
                   <source media="(min-width: 1200px)"
                     srcset="img/photo-4-desktop.jpg 1x, img/photo-4-desktop@2x.jpg 2x">
 
@@ -180,10 +210,8 @@
               <p class="gallery__author">Автор фото: Антон</p>
               <div class="gallery__like">
                 <button class="gallery__like-button" aria-label="Лайк!">
-                  <svg width="23" height="21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path opacity=".3"
-                      d="M12.964 3.78l-.628 3.045-.627 2.625h9.096v2.205L17.773 18.9h-9.41V8.4l4.6-4.62zM2.09 10.5v8.4-8.4zM13.8 0L6.9 6.93c-.418.315-.627.84-.627 1.47v10.5c0 1.155.94 2.1 2.09 2.1h9.41c.836 0 1.568-.525 1.881-1.26l3.137-7.455c.104-.21.104-.525.104-.735v-2.1H23c0-1.155-.94-2.1-2.09-2.1h-6.587l1.045-4.83v-.315c0-.42-.209-.84-.418-1.155L13.8 0zM4.182 8.4H0V21h4.182V8.4z"
-                      fill="#000" />
+                  <svg class="gallery__like-icon">
+                    <use xlink:href="img/sprite.svg#like-icon"></use>
                   </svg>
                 </button>
                 <span class="count">254</span>
@@ -201,6 +229,14 @@
         <div class="video__preview">
           <a class="gallery__link" href="">
             <picture>
+              <source type="image/webp" media="(min-width: 1200px)"
+                srcset="img/video-desktop.webp 1x, img/video-desktop@2x.webp 2x">
+
+              <source type="image/webp" media="(min-width: 768px)"
+                srcset="img/video-tablet.webp 1x, img/video-tablet@2x.webp 2x">
+
+              <source type="image/webp" srcset="img/video-mobile.webp 1x, img/video-mobile@2x.webp 2x">
+
               <source media="(min-width: 1200px)" srcset="img/video-desktop.jpg 1x, img/video-desktop@2x.jpg 2x">
 
               <source media="(min-width: 768px)" srcset="img/video-tablet.jpg 1x, img/video-tablet@2x.jpg 2x">
@@ -222,30 +258,29 @@
 
           <div class="control-panel__buttons">
             <button class="control-panel__button control-panel__button--replay" type="button" aria-label="Заново">
-              <svg class="control-panel__icon" width="16" height="20" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M8 4V0L3 5l5 5V6c3.3 0 6 2.7 6 6s-2.7 6-6 6-6-2.7-6-6H0c0 4.4 3.6 8 8 8s8-3.6 8-8-3.6-8-8-8z" />
+              <svg class="control-panel__icon replay">
+                <use xlink:href="img/sprite.svg#replay"></use>
               </svg>
             </button>
 
             <button class="control-panel__button control-panel__button--subtitles" type="button" aria-label="Субтитры">
-              <svg class="control-panel__icon" width="32" height="20" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M29 0H3C1.3 0 0 1.3 0 3v14c0 1.7 1.3 3 3 3h26c1.7 0 3-1.3 3-3V3c0-1.7-1.3-3-3-3zM14.4 15.9c-.5.1-1.1.1-1.7.1-.7 0-1.4-.1-2-.3-.6-.2-1.2-.6-1.6-1-.4-.4-.8-1.1-1.1-1.9-.3-.8-.4-1.7-.4-2.8 0-1.1.2-2.1.5-2.9.3-.8.7-1.4 1.2-1.9s1.1-.8 1.7-1a9.9 9.9 0 013.5-.1c.5.1.8.2 1.1.3l-.4 1.9-.9-.3H13c-.9 0-1.6.3-2.2 1-.6.7-.8 1.7-.8 3 0 .6.1 1.1.2 1.6s.3.9.6 1.3c.3.3.6.6 1 .8.4.2.9.3 1.4.3.5 0 .9 0 1.3-.1.3-.1.6-.2.9-.4l.5 1.8c-.5.3-1 .4-1.5.6zm8.7 0c-.5.1-1.1.1-1.7.1-.7 0-1.4-.1-2-.3-.6-.2-1.2-.6-1.6-1a4 4 0 01-1.1-1.9c-.3-.8-.4-1.7-.4-2.8 0-1.1.2-2.1.5-2.9.3-.8.7-1.4 1.2-1.9s1.1-.8 1.7-1a9.9 9.9 0 013.5-.1c.5.1.8.2 1.1.3l-.4 1.9L23 6h-1.3c-.9 0-1.6.3-2.2 1-.6.7-.8 1.7-.8 3 0 .6.1 1.1.2 1.6s.3.9.6 1.3c.3.3.6.6 1 .8.4.2.9.3 1.4.3.5 0 .9 0 1.3-.1.3-.1.6-.2.9-.4l.5 1.8c-.5.3-1 .4-1.5.6z" />
+              <svg class="control-panel__icon subtitles">
+                <use xlink:href="img/sprite.svg#subtitles"></use>
               </svg>
             </button>
 
             <button class="control-panel__button control-panel__button--fullscreen" type="button"
               aria-label="Полный экран">
-              <svg class="control-panel__icon" width="20" height="20" xmlns="http://www.w3.org/2000/svg">
-                <path d="M0 0v6h3V3h3V0H0zM3 14H0v6h6v-3H3v-3zM17 0h-3v3h3v3h3V0h-3zM17 17h-3v3h6v-6h-3v3z" /></svg>
+              <svg class="control-panel__icon fullscreen">
+                <use xlink:href="img/sprite.svg#fullscreen"></use>
+              </svg>
             </button>
           </div>
         </div>
       </section>
     </main>
 
-    <footer class="footer footer--catalog">
+    <footer class="footer">
       <div class="footer__unit contacts">
         <h2 class="visually-hidden">Контакты</h2>
         <p class="footer__hashtag" href="#">#VISITSEDONA</p>
@@ -256,17 +291,23 @@
           <h2 class="visually-hidden">Мы есть в социальных сетях сетях</h2>
           <li class="social__item">
             <a class="social__link button" href="#">
-              <img class="button__icon  icon-twitter" src="/img/icon-twitter.svg" width="17" height="15" alt="Twitter">
+              <svg class="button__icon icon-twitter">
+                <use xlink:href="img/sprite.svg#icon-twitter"></use>
+              </svg>
             </a>
           </li>
           <li class="social__item">
             <a class="social__link button" href="#">
-              <img class="button__icon icon-facebook" src="/img/icon-facebook.svg" width="9" height="19" alt="Facebook">
+              <svg class="button__icon icon-facebook">
+                <use xlink:href="img/sprite.svg#icon-facebook"></use>
+              </svg>
             </a>
           </li>
           <li class="social__item">
             <a class="social__link button" href="#">
-              <img class="button__icon icon-youtube" src="/img/icon-youtube.svg" width="20" height="14" alt="Youtube">
+              <svg class="button__icon icon-youtube">
+                <use xlink:href="img/sprite.svg#icon-youtube"></use>
+              </svg>
             </a>
           </li>
         </ul>
@@ -277,10 +318,8 @@
         <p class="copyright__text">
           <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
             Разработано
-            <!-- <img class="copyright__logo" src="img/icons/htmlacademy.svg" width="26" height="34" alt="Логотип Академии"> -->
-            <svg class="copyright__logo" xmlns="http://www.w3.org/2000/svg" width="27" height="34" viewBox="10 5 40 50">
-              <path
-                d="M30.2 5h-.2l-19.7 2.1v36.2l19.7 11.7 19.7-11.7v-36.2l-19.5-2.1zm17 36.8l-17.2 10.2-17.2-10.2v-14.8l17.1 10.2v1.8l-11.7-7v1.8l11.8 7.1v1.9l-11.8-7v1.8l11.8 7 11.9-7.1v-7.6l5.3-3.2v15.1zm-.1-17l-4.7 2.8-2.2 1.3-10.3-6.1v1.8l8.8 5.3h-.1l-.2.1-1.3.7-7.3-4.3v1.8l5.8 3.4-1.4.9-4.3-2.6v1.8l2.9 1.7-2.9 1.7-17-10.1 17-10.2 17.2 10zm.1-1.8l-17.3-10.2-17.1 10.2v-13.6l17.2-1.8 17.2 1.8v13.6z" />
+            <svg class="copyright__logo">
+              <use xlink:href="img/sprite.svg#htmlacademy"></use>
             </svg>
           </a>
         </p>

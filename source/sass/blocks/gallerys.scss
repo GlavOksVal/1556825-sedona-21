@@ -5,13 +5,15 @@
 @media (min-width: $tablet-width) {
   .gallerys {
     // padding: 60px 0;
-    padding-top: 56px;
+    padding-top: 27px;
     padding-bottom: 25px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .gallerys {
-    padding: 0;
+    padding-top: 43px;
+    padding-bottom: 0;
+    // padding: 0;
   }
 }
