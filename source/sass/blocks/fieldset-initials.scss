@@ -21,7 +21,7 @@
   font-weight: 400;
   color: $font-color-base;
   padding-top: 17px;
-  padding-right: 13px;
+  padding-right: 14px;
 }
 .fieldset-initials__input {
   flex-grow: 1;
@@ -42,11 +42,12 @@
 }
 
 //
-.fieldset-initials__input[placeholder] {
+.fieldset-initials__input::placeholder {
   font-family: $font-family-base;
   padding-left: 23px;
   font-weight: 700;
   font-size: 18px;
+  color:$black;
 }
 
 //
@@ -83,15 +84,15 @@
   }
 
   .fieldset-initials__input[name="firstname"] {
-    width: 194px;
+    width: 216px;
   }
 
   .fieldset-initials__input[name="surname"] {
-    width: 156px;
+    width: 178px;
   }
 
   .fieldset-initials__input[name="middle_name"] {
-    width: 158px;
+    width: 182px;
   }
 
   .fieldset-initials__box:last-child {
@@ -110,15 +111,15 @@
   }
 
   .fieldset-initials__input[name="firstname"] {
-    width: 326px;
+    width: 350px;
   }
 
   .fieldset-initials__input[name="surname"] {
-    width: 288px;
+    width: 313px;
   }
 
   .fieldset-initials__input[name="middle_name"] {
-    width: 291px;
+    width: 316px;
   }
 
   .fieldset-initials__subtitle {

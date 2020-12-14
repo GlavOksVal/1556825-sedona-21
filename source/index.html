@@ -24,16 +24,20 @@
 
         <ul class="header__menu menu">
           <li class="menu__item">
-            <a class="menu__link  menu__link--active" href="index.html">Главная</a> </li>
+            <a class="menu__link  menu__link--active" href="index.html">Главная</a>
+          </li>
 
           <li class="menu__item">
-            <a class="menu__link" href="catalog.html">Фото и Видео</a></li>
+            <a class="menu__link" href="catalog.html">Фото и Видео</a>
+          </li>
 
           <li class="menu__item">
-            <a class="menu__link  menu__item--right" href="form.html">Форма отзыва</a></li>
+            <a class="menu__link  menu__item--right" href="form.html">Форма отзыва</a>
+          </li>
 
           <li class="menu__item">
-            <a class="menu__link menu__item--right" href="">Html Academy</a></li>
+            <a class="menu__link menu__item--right" href="https://htmlacademy.ru">Html Academy</a>
+          </li>
         </ul>
 
         <button class="header__toggle header__toggle--off" type="button">
@@ -85,7 +89,7 @@
               <source media="(min-width: 768px)" srcset="img/photo-city-tablet.jpg 1x, img/photo-city-tablet@2x.jpg 2x">
 
               <img class="advantages__img-pic" src="img/photo-city-mobile.jpg" srcset="img/photo-city-mobile@2x.jpg 2x"
-                alt="Фотография города Седона">
+                width="320" height="260" alt="Фотография города Седона">
             </picture>
           </div>
         </div>
@@ -132,7 +136,7 @@
                 srcset="img/photo-bridge-tablet.jpg 1x, img/photo-bridge-tablet@2x.jpg 2x">
 
               <img class="advantages__img-pic" src="img/photo-bridge-mobile.jpg" srcset="img/photo-bridge-mobile@2x.jpg"
-                alt="Фотография мост Дьявола">
+                width="320" height="260" alt="Фотография мост Дьявола">
             </picture>
           </div>
         </div>
@@ -173,10 +177,9 @@
 
       <section class="map">
         <h2 class="visually-hidden">Карта - как нас найти</h2>
-        <iframe class="map__iframe"
+        <iframe class="map__iframe" title="Интерактивная карта"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d257439.6005787663!2d-111.59848427038904!3d35.14251313361412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872d8ef7da2e2631%3A0x8e1f3ca1cedbb300!2z0KTQu9Cw0LPRgdGC0LDRhNGELCDQkNGA0LjQt9C-0L3QsCwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1605353630268!5m2!1sru!2sru"
-          width="320" height="350" style="border:0;" allowfullscreen=""
-          aria-hidden="false" tabindex="0">
+          width="320" height="350" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
         </iframe>
 
         <!-- <img src="" alt="маркер на карте"> -->
@@ -194,7 +197,7 @@
       </section>
     </main>
 
-    <footer class="footer">
+    <footer class="footer footer--index">
       <div class="footer__unit contacts">
         <h2 class="visually-hidden">Контакты</h2>
         <p class="footer__hashtag" href="#">#VISITSEDONA</p>

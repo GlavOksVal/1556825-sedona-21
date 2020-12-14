@@ -37,8 +37,11 @@
     top: -15px;
   }
 
-
    .fieldset-attraction__label:hover::before {
+    background-color: $background-btn--disabled;
+  }
+
+  .fieldset-attractions__input:focus + .fieldset-attractions__label::before {
     background-color: $background-btn--disabled;
   }
 
@@ -127,6 +130,9 @@
       width: auto;
     }
 
+    .fieldset-attractions__label {
+      padding-bottom: 59px;
+    }
     .fieldset-attraction__label[for="slide_park"] {
       margin-left: 69px;
     }

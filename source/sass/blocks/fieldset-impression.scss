@@ -1,13 +1,13 @@
 .fieldset-impression {
     border-bottom: 1px solid $border-color;
-  }
+}
 
 .fieldset-impression__title {
 font-size: 18px;
 line-height: 26px;
 font-weight: 700;
 padding-top: 20px;
-padding-bottom: 37px;
+padding-bottom: 36px;
 text-align: center;
 }
 
@@ -38,8 +38,8 @@ text-align: center;
     background-color: $background-btn--disabled;
   }
 
-  .fieldset-impression__label:active::before {
-    background-color: $background-input--active;
+  .fieldset-impression__input:focus + .fieldset-impression__label::before {
+    background-color: $background-btn--disabled;
   }
 
   .fieldset-impression__label:active::after {
@@ -74,7 +74,7 @@ text-align: center;
     .fieldset-impression__title {
       font-size: 21px;
       text-align: left;
-      padding: 0 0 72px 0;
+      padding: 0 0 38px 0;
       // padding: 52px 0 72px 0;
     }
 
@@ -83,7 +83,7 @@ text-align: center;
     }
 
     .fieldset-impression__label[for="no_answer"] {
-      padding-bottom: 60px;
+      padding-bottom: 58px;
     }
   }
 

@@ -6,6 +6,7 @@
 @media (min-width: $tablet-width) {
   .menu {
     display: flex;
+    flex-wrap: wrap;
   }
 }
 
