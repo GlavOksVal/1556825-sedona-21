@@ -29,7 +29,7 @@
   z-index: 20;
   margin: 21px;
   height: 3px;
-  background-color: rgba($white, 0.3);
+  background-color: $white-opacity-30;
 }
 
 .control-panel__slider {
@@ -77,7 +77,7 @@
   }
 
   &:active {
-    fill: rgba($font-color-base, 0.3);
+    fill: $dark-gray-opacity-30;
   }
 }
 
@@ -98,15 +98,15 @@
     fill: $white;
 
     &:hover {
-      fill: rgba($white, 0.6);
+      fill: $white-opacity-60;
     }
 
     &:focus {
-      fill: rgba($white, 0.6);
+      fill: $white-opacity-60;
     }
 
     &:active {
-      fill: rgba($white, 0.3);
+      fill: $white-opacity-30;
     }
   }
 

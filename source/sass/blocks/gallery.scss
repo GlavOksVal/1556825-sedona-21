@@ -35,7 +35,7 @@
 .gallery__like-icon {
   width: 23px;
   height: 21px;
-  fill: rgba($black, 0.3);
+  fill: $black-opacity-30;
 }
 
 
@@ -141,13 +141,11 @@
   }
 
   .gallery__item:nth-child(-n+2) .gallery__sign{
-    background-color: $black;
-    opacity: 0.3;
+    background-color: $black-opacity-30;
   }
 
   .gallery__item:nth-child(n+3):nth-child(-n+4) .gallery__sign {
-    background-color: $black;
-    opacity: 0.3;
+    background-color: $black-opacity-30;
   }
 }
 
@@ -207,6 +205,6 @@
   }
 
   .gallery__like-icon {
-    fill: rgba($white, 1);
+    fill: $white-opacity-100;
   }
 }

@@ -27,7 +27,7 @@
   &:active {
     border-color: $background-btn--active;
     background-color: $background-btn--active;
-    color: rgba($font-color-second, 0.3);
+    color: $white-opacity-30;
   }
 
   &:disabled {
