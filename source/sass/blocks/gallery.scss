@@ -30,14 +30,16 @@
   border: none;
   background-color: transparent;
   cursor: pointer;
+
+  border:none;
+  outline: none;
 }
 
 .gallery__like-icon {
   width: 23px;
   height: 21px;
-  fill: rgba($black, 0.3);
+  fill: $black-opacity-30;
 }
-
 
 @media (min-width: $tablet-width) {
   .gallery {
@@ -49,7 +51,7 @@
     padding: 0;
   }
 
-   .gallery__item {
+    .gallery__item {
     border: none;
     padding: 0;
   }
@@ -102,8 +104,6 @@
   }
 }
 
-
-
 @media (min-width: $desktop-width) {
   .gallery {
     grid-template-columns: repeat(3, 1fr);
@@ -141,16 +141,13 @@
   }
 
   .gallery__item:nth-child(-n+2) .gallery__sign{
-    background-color: $black;
-    opacity: 0.3;
+    background-color: $black-opacity-30;
   }
 
   .gallery__item:nth-child(n+3):nth-child(-n+4) .gallery__sign {
-    background-color: $black;
-    opacity: 0.3;
+    background-color: $black-opacity-30;
   }
 }
-
 
 .gallery__name {
   font-size: 14px;
@@ -207,6 +204,6 @@
   }
 
   .gallery__like-icon {
-    fill: rgba($white, 1);
+    fill: $white-opacity-100;
   }
 }
