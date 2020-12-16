@@ -4,7 +4,7 @@
   flex-direction: column;
 
   &--index {
-    padding-top: 34px;
+    padding-top: 0;
   }
   &--catalog {
     padding-top: 95px;
@@ -17,7 +17,7 @@
   font-weight: 700;
   color: $font-color-title;
   padding-bottom: 33px;
-  padding-top: 56px;
+  padding-top: 39px;
   margin: 0;
 }
 
