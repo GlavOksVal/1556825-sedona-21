@@ -1,6 +1,6 @@
 .fieldset-contact {
-    border-bottom: 1px solid $border-color;
-    padding-bottom: 12px;
+  border-bottom: 1px solid $border-color;
+  padding-bottom: 12px;
 }
 .fieldset-contact__title  {
 padding-top: 20px;
@@ -50,6 +50,7 @@ padding-bottom: 9px;
     border: none;
     background-color: $background-input;
     margin-bottom: 14px;
+    padding: 1px 0px;
 }
 .fieldset-contact__input::placeholder {
     font-family: $font-family-base;
