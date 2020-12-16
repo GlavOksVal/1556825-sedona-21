@@ -132,6 +132,10 @@
     width: auto;
   }
 
+  .fieldset-attraction__title {
+    padding-top: 10px;
+  }
+
   .fieldset-attractions__label {
     padding-bottom: 59px;
   }
@@ -148,4 +152,10 @@
     margin-right: 0;
     margin-left: 11px;
   }
+  
+  .fieldset-attraction__label[for="devils_bridge"] {
+    margin-left: auto;
+    padding-right: 38px;
+  }
+
 }

@@ -80,6 +80,10 @@
 @media (min-width: $desktop-width) {
   .footer {
     padding-top: 39px;
+
+  &--form {
+    padding-top: 37px;
+    }
   }
 
   .copyright__text {
