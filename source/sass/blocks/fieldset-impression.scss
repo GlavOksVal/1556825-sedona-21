@@ -79,11 +79,35 @@ text-align: center;
     }
 
     .fieldset-impression__label {
-      padding: 0 0 52px 75px;
+      padding: 36px 0 16px 76px;
     }
 
     .fieldset-impression__label[for="no_answer"] {
       padding-bottom: 58px;
+    }
+
+    .fieldset-impression__label::before {
+      content: "";
+      position: absolute;
+      width: 54px;
+      height: 54px;
+      background-color: $background-input;
+      left: 0;
+      top: 20px;
+      border-radius: 50%;
+    }
+
+    .fieldset-impression__label::after {
+      content: "";
+      position: absolute;
+      width: 22px;
+      height: 22px;
+      background-image: url("../img/radio-dot.svg");
+      background-position: center;
+      background-size: 22px 22px;
+      left: 17px;
+      top: 37px;
+      display: none;
     }
   }
 
