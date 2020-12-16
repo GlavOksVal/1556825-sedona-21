@@ -68,14 +68,15 @@
 
 @media (min-width: $desktop-width) {
   .video {
-    padding-top: 61px;
+    padding-top: 54px;
   }
 
   .video__preview {
     margin: 0 200px;
+    padding: 0;
   }
   .video__control {
-    margin: 0 260px;
+    margin: 0 200px;
   }
   .video__subtitle {
     margin-bottom: 45px;
