@@ -11,13 +11,13 @@
 }
 
 .advantages-blue__box {
-  padding: 53px 13px 39px 13px;
+  padding: 53px 13px 42px;
   text-align: center;
   color: $font-color-second;
   background-color: $background-block-second;
 
   &--index {
-    padding-top: 71px;
+    padding-top: 51px;
     position: relative;
   }
 
@@ -31,7 +31,7 @@
     left: 50%;
     transform: translate(-50%);
     background-size: 100% 100%;
-    top: 0;
+    top: -19px;
   }
 
 }
@@ -43,7 +43,7 @@
 }
 
 .advantages-blue--reverse .advantages-blue__box {
-  padding-top: 38px;
+  padding-top: 41px;
   padding-bottom: 36px;
 }
 

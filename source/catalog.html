@@ -5,6 +5,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=divice-width,initial-scale=1">
   <title>HTML Academy: Седона</title>
+  <link rel="preload" href="fonts/ptsans.woff2" as="font">
+  <link rel="preload" href="fonts/ptsansbold.woff2" as="font">
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 
@@ -40,7 +42,7 @@
         </ul>
 
         <button class="header__toggle header__toggle--off" type="button">
-          <h2 class="visually-hidden">Кнопка меню</h2>
+          <span class="visually-hidden">Кнопка меню</span>
           <!-- <svg width="23" height="22" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M22.9 0H0v4h22.9V0zM22.9 9H0v4h22.9V9zM22.9 18H0v4h22.9v-4z" fill="#81B3D2" />
           </svg> -->
@@ -58,7 +60,7 @@
         </picture>
       </section>
 
-      <section class="description">
+      <section class="description description--catalog">
         <h1 class="visually-hidden">Проект "Седона"</h1>
         <div class="description__content description__content--catalog">
           <h2 class="description__title description__title--catalog">Фото и видео</h2>
@@ -95,7 +97,7 @@
             </div>
 
             <div class="gallery__sign">
-              <h3 class="gallery__name" href="">Неродные просторы</h3>
+              <h3 class="gallery__name">Неродные просторы</h3>
               <p class="gallery__author">Автор фото: Борис</p>
               <div class="gallery__like">
                 <button class="gallery__like-button" aria-label="Лайк!">
@@ -169,7 +171,7 @@
             </div>
 
             <div class="gallery__sign">
-              <h3 class="gallery__name subtitle" href="">Дорога на север</h3>
+              <h3 class="gallery__name subtitle">Дорога на север</h3>
               <p class="gallery__author">Автор фото: Петр</p>
               <div class="gallery__like">
                 <button class="gallery__like-button" aria-label="Лайк!">
@@ -206,7 +208,7 @@
             </div>
 
             <div class="gallery__sign">
-              <h3 class="gallery__name subtitle" href="">Мост Дьявола</h3>
+              <h3 class="gallery__name subtitle">Мост Дьявола</h3>
               <p class="gallery__author">Автор фото: Антон</p>
               <div class="gallery__like">
                 <button class="gallery__like-button" aria-label="Лайк!">
@@ -283,29 +285,29 @@
     <footer class="footer footer--catalog">
       <div class="footer__unit contacts">
         <h2 class="visually-hidden">Контакты</h2>
-        <p class="footer__hashtag" href="#">#VISITSEDONA</p>
+        <p class="footer__hashtag">#VISITSEDONA</p>
       </div>
 
       <div class="footer__unit">
         <ul class="social">
-          <h2 class="visually-hidden">Мы есть в социальных сетях сетях</h2>
+          <!-- <h2 class="visually-hidden">Мы есть в социальных сетях сетях</h2> -->
           <li class="social__item">
-            <a class="social__link button" href="#">
-              <svg class="button__icon icon-twitter">
+            <a class="social__link button__icon" href="#">
+              <svg class="icon-twitter">
                 <use xlink:href="img/sprite.svg#icon-twitter"></use>
               </svg>
             </a>
           </li>
           <li class="social__item">
-            <a class="social__link button" href="#">
-              <svg class="button__icon icon-facebook">
+            <a class="social__link button__icon" href="#">
+              <svg class="icon-facebook">
                 <use xlink:href="img/sprite.svg#icon-facebook"></use>
               </svg>
             </a>
           </li>
           <li class="social__item">
-            <a class="social__link button" href="#">
-              <svg class="button__icon icon-youtube">
+            <a class="social__link button__icon" href="#">
+              <svg class="icon-youtube">
                 <use xlink:href="img/sprite.svg#icon-youtube"></use>
               </svg>
             </a>

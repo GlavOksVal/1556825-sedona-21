@@ -10,6 +10,7 @@
   line-height: 26px;
   font-weight: 700;
   text-align: center;
+  padding-top: 8px;
   padding-bottom: 28px;
   margin: 0 auto;
 }
@@ -20,7 +21,7 @@
   line-height: 24px;
   font-weight: 400;
   text-align: center;
-  padding: 0 25px 32px;
+  padding: 0 25px 34px;
   margin: 0 auto;
 }
 
@@ -43,7 +44,7 @@
 
 @media (min-width: $tablet-width) {
   .video {
-    padding-top: 32px;
+    padding-top: 23px;
   }
 
   .video__title {
@@ -67,14 +68,15 @@
 
 @media (min-width: $desktop-width) {
   .video {
-    padding-top: 61px;
+    padding-top: 54px;
   }
 
   .video__preview {
     margin: 0 200px;
+    padding: 0;
   }
   .video__control {
-    margin: 0 260px;
+    margin: 0 200px;
   }
   .video__subtitle {
     margin-bottom: 45px;

@@ -5,6 +5,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=divice-width,initial-scale=1">
   <title>HTML Academy: Седона</title>
+  <link rel="preload" href="fonts/ptsans.woff2" as="font">
+  <link rel="preload" href="fonts/ptsansbold.woff2" as="font">
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 
@@ -41,7 +43,7 @@
         </ul>
 
         <button class="header__toggle header__toggle--off" type="button">
-          <h2 class="visually-hidden">Кнопка меню</h2>
+          <span class="visually-hidden">Кнопка меню</span>
         </button>
       </nav>
     </header>
@@ -84,7 +86,7 @@
               <source type="image/webp" srcset="img/photo-city-mobile.webp 1x, img/photo-city-mobile@2x.webp 2x">
 
               <source media="(min-width: 1200px)"
-                srcset="img/photo-city-desktop.jpg 1x img/photo-city-desktop@2x.jpg 2x">
+                srcset="img/photo-city-desktop.jpg 1x, img/photo-city-desktop@2x.jpg 2x">
 
               <source media="(min-width: 768px)" srcset="img/photo-city-tablet.jpg 1x, img/photo-city-tablet@2x.jpg 2x">
 
@@ -200,29 +202,29 @@
     <footer class="footer footer--index">
       <div class="footer__unit contacts">
         <h2 class="visually-hidden">Контакты</h2>
-        <p class="footer__hashtag" href="#">#VISITSEDONA</p>
+        <p class="footer__hashtag">#VISITSEDONA</p>
       </div>
 
       <div class="footer__unit">
         <ul class="social">
-          <h2 class="visually-hidden">Мы есть в социальных сетях сетях</h2>
+          <!-- <span class="visually-hidden">Мы есть в социальных сетях сетях</span> -->
           <li class="social__item">
-            <a class="social__link button" href="#">
-              <svg class="button__icon icon-twitter">
+            <a class="social__link button__icon" href="#">
+              <svg class="icon-twitter">
                 <use xlink:href="img/sprite.svg#icon-twitter"></use>
               </svg>
             </a>
           </li>
           <li class="social__item">
-            <a class="social__link button" href="#">
-              <svg class="button__icon icon-facebook">
+            <a class="social__link button__icon" href="#">
+              <svg class="icon-facebook">
                 <use xlink:href="img/sprite.svg#icon-facebook"></use>
               </svg>
             </a>
           </li>
           <li class="social__item">
-            <a class="social__link button" href="#">
-              <svg class="button__icon icon-youtube">
+            <a class="social__link button__icon" href="#">
+              <svg class="icon-youtube">
                 <use xlink:href="img/sprite.svg#icon-youtube"></use>
               </svg>
             </a>

@@ -22,7 +22,7 @@
   .feedback__form {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 0 60px;
+    padding: 27px 60px;
     position: relative;
   }
 
@@ -34,7 +34,7 @@
     background-color: $border-color;
     z-index: 100;
     left: 50%;
-    top: 148px;
+    top: 175px;
     transform: translate(-50%) rotate(90deg);
   }
 
@@ -64,9 +64,20 @@
 
 @media (min-width: $desktop-width) {
   .feedback__form {
-    padding: 30px 120px;
+    padding: 0 120px;
   }
 
+  .feedback__form::before {
+    content: "";
+    position: absolute;
+    width: 292px;
+    height: 1px;
+    background-color: $border-color;
+    z-index: 100;
+    left: 50%;
+    top: 149px;
+    transform: translate(-50%) rotate(90deg);
+  }
   .feedback__form-button {
     flex-grow: 0;
     width: 480px;
