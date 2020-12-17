@@ -1,11 +1,11 @@
 .wrap-input {
-    margin: 0 20px;
+  margin: 0 20px;
 
-    @include mixins;
-  }
+  @include mixins;
+}
 
-  @media (min-width: $tablet-width) {
-    .wrap-input {
-      margin: 1px;
-    }
+@media (min-width: $tablet-width) {
+  .wrap-input {
+    margin: 1px;
   }
+}

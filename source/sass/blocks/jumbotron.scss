@@ -34,6 +34,7 @@
   .jumbotron {
     min-height: 518px;
   }
+
   .jumbotron--index {
     min-height: 518px;
     background-image: url("../img/index-back-tablet.jpg");
@@ -45,6 +46,7 @@
       background-image: url("../img/index-back-tablet@2x.jpg");
       background-size: cover;
     }
+
     &::before {
       content: "";
       position: absolute;
@@ -78,6 +80,7 @@
       background-image: url("../img/index-back-desktop@2x.jpg");
       background-size: cover;
     }
+
     &::before {
       content: "";
       position: absolute;
@@ -132,6 +135,7 @@
       background-image: url("../img/back-tablet@2x.jpg");
       background-size: cover;
     }
+
     &::before {
       content: "";
       position: absolute;
@@ -223,6 +227,7 @@
       background-image: url("../img/back-tablet@2x.jpg");
       background-size: cover;
     }
+
     &::before {
       content: "";
       position: absolute;
@@ -252,6 +257,7 @@
       background-image: url("../img/back-desktop@2x.jpg");
       background-size: cover;
     }
+
     &::before {
       content: "";
       position: absolute;
@@ -267,10 +273,6 @@
   }
 }
 
-
-//
-
-
 .jumbotron--img {
   position: relative;
   overflow: hidden;
@@ -281,7 +283,6 @@
   left: 50%;
   top: 90px;
   transform: translate(-50%);
-  top: 90px;
 }
 
 @media (min-width: $tablet-width) {
@@ -304,7 +305,7 @@
 }
 
 @media (min-width: $desktop-width) {
-  .jumbotron .jumbotron__welcome{
+  .jumbotron .jumbotron__welcome {
     top: 102px;
   }
 }

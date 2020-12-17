@@ -1,166 +1,168 @@
 .fieldset-contact {
   border-bottom: 1px solid $border-color;
-  padding-bottom: 12px;
+  padding-bottom: 18px;
 }
-.fieldset-contact__title  {
-padding-top: 20px;
-padding-bottom: 20px;
-text-align: center;
-font-size: 18px;
-line-height: 26px;
-font-weight: 700;
+
+.fieldset-contact__title {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
 }
 
 .fieldset-contact__box {
-display: flex;
-flex-direction: column;
-position: relative;
+  display: flex;
+  flex-direction: column;
+  position: relative;
 }
 
 .fieldset-contact__box::before {
-content: "";
-position: absolute;
-width: 58px;
-height: 58px;
-right: 0;
-top: 31px;
-background-color: $input-block;
+  content: "";
+  position: absolute;
+  width: 58px;
+  height: 58px;
+  right: 0;
+  top: 29px;
+  background-color: $input-block;
 }
 
 .fieldset-contact__box--number::after {
-    content: "";
-    position: absolute;
-    background-image: url("../img/phone.svg");
-    width: 18px;
-    height: 18px;
-    right: 20px;
-    top: 50px;
+  content: "";
+  position: absolute;
+  background-image: url("../img/phone.svg");
+  width: 18px;
+  height: 18px;
+  right: 20px;
+  top: 50px;
 }
 
 .fieldset-contact__subtitle {
-font-size: 14px;
-font-weight: 26px;
-padding-left: 20px;
-padding-bottom: 9px;
+  font-size: 14px;
+  font-weight: 26px;
+  padding-left: 20px;
+  padding-bottom: 9px;
 }
 
 .fieldset-contact__input {
-    flex-grow: 1;
-    height: 58px;
-    border: none;
-    background-color: $background-input;
-    margin-bottom: 14px;
-    padding: 1px 0px;
+  flex-grow: 1;
+  height: 58px;
+  border: none;
+  background-color: $background-input;
+  margin-bottom: 14px;
+  padding: 1px 0;
 }
-.fieldset-contact__input::placeholder {
-    font-family: $font-family-base;
-    font-size: 18px;
-    font-weight: 700;
-    padding: 0 0 0 22px;
-    color: $black;
+
+.fieldset-contact__input[placeholder] {
+  font-family: $font-family-base;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 0 0 0 22px;
+  color: $black;
 }
 
 .fieldset-contact__box--email::after {
-    content: "";
-    position: absolute;
-    background-image: url("../../img/mail.svg");
-    width: 16px;
-    height: 12px;
-    right: 20px;
-    top: 52px;
+  content: "";
+  position: absolute;
+  background-image: url("../../img/mail.svg");
+  width: 16px;
+  height: 12px;
+  right: 20px;
+  top: 52px;
 }
 
 @media (min-width: $tablet-width) {
-.fieldset-contact {
+  .fieldset-contact {
     grid-row: 2/3;
     grid-column: 1/3;
     border-bottom: none;
     position: relative;
     border-top: 2px solid $border-color;
     padding-bottom: 23px;
-}
+  }
 
-.fieldset-contact__title {
+  .fieldset-contact__title {
     display: block;
     padding: 26px 61px 23px;
     font-size: 21px;
     position: relative;
-}
+  }
 
-.fieldset-contact__input[type="tel"] {
-  padding-top: 7px;
-  margin-bottom: 25px;
-  height: 52px;
-}
+  .fieldset-contact__input[type="tel"] {
+    padding-top: 7px;
+    margin-bottom: 25px;
+    height: 52px;
+  }
 
-.fieldset-contact__input[type="email"] {
-  padding-top: 7px;
-  height: 52px;
-}
+  .fieldset-contact__input[type="email"] {
+    padding-top: 7px;
+    height: 52px;
+  }
 }
 
 @media (min-width: $desktop-width) {
-.fieldset-contact {
+  .fieldset-contact {
     padding-bottom: 13px;
-}
+  }
 
-.fieldset-contact__wrap {
+  .fieldset-contact__wrap {
     display: flex;
     justify-content: space-between;
-}
+  }
 
-.word-contact {
+  .word-contact {
     display: none;
-}
+  }
 
-.fieldset-contact__title {
+  .fieldset-contact__title {
     padding-top: 25px;
     margin-bottom: 48px;
     // margin-bottom: 54px;
-}
+  }
 
-.fieldset-contact__box {
+  .fieldset-contact__box {
     flex-direction: row;
-}
+  }
 
-.fieldset-contact__input{
+  .fieldset-contact__input {
     width: 316px;
-}
+  }
 
-.fieldset-contact__input::placeholder {
+  .fieldset-contact__input[placeholder] {
     margin-left: 18px;
-}
+  }
 
-.fieldset-contact__subtitle {
+  .fieldset-contact__subtitle {
     padding-top: 20px;
     padding-left: 0;
-}
+  }
 
-.fieldset-contact__box::before {
+  .fieldset-contact__box::before {
     top: 1px;
-}
+  }
 
-.fieldset-contact__box--number::after {
+  .fieldset-contact__box--number::after {
     top: 20px;
-}
+  }
 
-.fieldset-contact__box--email::after {
+  .fieldset-contact__box--email::after {
     top: 23px;
-}
+  }
 
-.fieldset-contact__input[type="tel"] {
+  .fieldset-contact__input[type="tel"] {
     width: 310px;
-}
+  }
 
-.fieldset-contact__input[type="email"] {
+  .fieldset-contact__input[type="email"] {
     width: 314px;
-}
+  }
 
-.fieldset-contact__box:nth-child(1) .fieldset-contact__input {
-  margin-left: 15px;
-}
+  .fieldset-contact__box:nth-child(1) .fieldset-contact__input {
+    margin-left: 15px;
+  }
 
-.fieldset-contact__box:nth-child(2) .fieldset-contact__input {
-  margin-left: 17px;
-}
+  .fieldset-contact__box:nth-child(2) .fieldset-contact__input {
+    margin-left: 17px;
+  }
 }

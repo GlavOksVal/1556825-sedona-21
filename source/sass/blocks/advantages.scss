@@ -1,10 +1,10 @@
 .advantages__item-img {
-    background-color: $background-color-photo;
-    min-height: 260px;
-  }
+  background-color: $background-color-photo;
+  min-height: 260px;
+}
 
-  @media (min-width: $tablet-width) {
-    .advantages__item-img {
-      min-height: 256px;
-    }
+@media (min-width: $tablet-width) {
+  .advantages__item-img {
+    min-height: 256px;
   }
+}

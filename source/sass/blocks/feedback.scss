@@ -59,8 +59,8 @@
   .feedback__form-required--field {
     display: block;
     margin-top: 23px;
-    }
   }
+}
 
 @media (min-width: $desktop-width) {
   .feedback__form {
@@ -78,6 +78,7 @@
     top: 149px;
     transform: translate(-50%) rotate(90deg);
   }
+
   .feedback__form-button {
     flex-grow: 0;
     width: 480px;

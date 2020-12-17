@@ -1,5 +1,5 @@
 .map {
-  position:relative;
+  position: relative;
   display: flex;
   justify-content: center;
   background-color: $background-color-map;
@@ -10,7 +10,7 @@
   background-color: $background-color-map;
   height: 350px;
   width: 100%;
-  // background-image: url("../img/map-mobile.jpg");
+  background-image: url("../img/map-mobile.jpg");
 }
 
 .map__marker {
@@ -24,14 +24,23 @@
   .map {
     margin-top: 0;
   }
+
   .map__marker {
-  padding-top: 162px;
-  padding-right: 5px;
+    padding-top: 162px;
+    padding-right: 5px;
+  }
+
+  .map__iframe {
+    background-image: url("../img/map-tablet.jpg");
   }
 }
 
 @media (min-width: $desktop-width) {
   .map__marker {
-  padding-right: 5px;
+    padding-right: 5px;
+  }
+
+  .map__iframe {
+    background-image: url("../img/map-desktop.jpg");
   }
 }

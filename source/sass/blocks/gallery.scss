@@ -30,8 +30,6 @@
   border: none;
   background-color: transparent;
   cursor: pointer;
-
-  border:none;
   outline: none;
 }
 
@@ -47,11 +45,12 @@
     grid-template-columns: repeat(2, 1fr);
     padding: 0 60px;
   }
+
   .gallery__image {
     padding: 0;
   }
 
-    .gallery__item {
+  .gallery__item {
     border: none;
     padding: 0;
   }
@@ -140,7 +139,7 @@
     top: -80px;
   }
 
-  .gallery__item:nth-child(-n+2) .gallery__sign{
+  .gallery__item:nth-child(-n+2) .gallery__sign {
     background-color: $black-opacity-30;
   }
 

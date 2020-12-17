@@ -38,7 +38,7 @@
   top: -15px;
 }
 
-  .fieldset-attraction__label:hover::before {
+.fieldset-attraction__label:hover::before {
   background-color: $background-btn--disabled;
 }
 
@@ -139,6 +139,7 @@
   .fieldset-attractions__label {
     padding-bottom: 59px;
   }
+
   .fieldset-attraction__label[for="slide_park"] {
     margin-left: 69px;
   }
@@ -152,10 +153,9 @@
     margin-right: 0;
     margin-left: 11px;
   }
-  
+
   .fieldset-attraction__label[for="devils_bridge"] {
     margin-left: auto;
     padding-right: 38px;
   }
-
 }
