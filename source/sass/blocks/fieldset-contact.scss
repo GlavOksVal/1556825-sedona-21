@@ -24,7 +24,7 @@
   width: 58px;
   height: 58px;
   right: 0;
-  top: 29px;
+  top: 31px;
   background-color: $input-block;
 }
 
@@ -54,7 +54,7 @@
   padding: 1px 0;
 }
 
-.fieldset-contact__input[placeholder] {
+.fieldset-contact__input::placeholder {
   font-family: $font-family-base;
   font-size: 18px;
   font-weight: 700;
@@ -129,7 +129,7 @@
     width: 316px;
   }
 
-  .fieldset-contact__input[placeholder] {
+  .fieldset-contact__input::placeholder {
     margin-left: 18px;
   }
 

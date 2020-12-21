@@ -1,0 +1,32 @@
+.fieldset-button__title {
+  flex-grow: 1;
+}
+
+.fieldset-button__required-field {
+  display: none;
+}
+
+@media (min-width: $tablet-width) {
+  .fieldset-button__title {
+    flex-grow: 0;
+    width: 324px;
+    padding: 15px 18px 11px 7px;
+  }
+
+  .fieldset-button__required-field {
+    display: block;
+    margin-top: 23px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .fieldset-button__title {
+    flex-grow: 0;
+    width: 480px;
+    padding: 15px 5px 11px 7px;
+  }
+
+  .feedback__form-button {
+    margin-bottom: 65px;
+  }
+}

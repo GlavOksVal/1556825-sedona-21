@@ -23,26 +23,61 @@
   padding-bottom: 8px;
 }
 
-.icon-twitter {
+.social__link-icon--twitter {
   width: 17px;
   height: 15px;
   fill: $white;
 }
 
-.icon-facebook {
+.social__link-icon--facebook {
   width: 9px;
   height: 19px;
   fill: $white;
 }
 
-.icon-youtube {
+.social__link-icon--youtube {
   width: 20px;
   height: 14px;
   fill: $white;
 }
 
-.social__link:active .icon-twitter,
-.social__link:active .icon-facebook,
-.social__link:active .icon-youtube {
+.social__link:active .social__link-icon--twitter,
+.social__link:active .social__link-icon--facebook,
+.social__link:active .social__link-icon--youtube {
   opacity: 0.3;
+}
+
+
+.social__link--button {
+  display: block;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 13px 10px;
+  border: 3px solid $background-btn;
+  font-family: $font-family-base;
+  color: $font-color-second;
+  text-decoration: none;
+  background-color: $background-btn;
+  cursor: pointer;
+
+  &:hover {
+    border-color: $background-btn--hover;
+    background-color: $background-btn--hover;
+  }
+
+  &:focus {
+    border-color: $background-btn--hover;
+    background-color: $background-btn--hover;
+  }
+
+  &:active {
+    border-color: $background-btn--active;
+    background-color: $background-btn--active;
+    color: $white-opacity-30;
+  }
+
+  &:disabled {
+    border-color: $background-btn--disabled;
+    background-color: $background-btn--disabled;
+  }
 }

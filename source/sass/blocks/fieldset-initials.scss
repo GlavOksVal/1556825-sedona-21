@@ -29,7 +29,7 @@
 
 .fieldset-initials__input {
   flex-grow: 1;
-  padding: 0;
+  padding: 0 22px 0 23px;
   height: 58px;
   background-color: $background-input;
   border: none;
@@ -45,9 +45,10 @@
   box-shadow: inset 0 0 0 4px $background-btn--disabled;
 }
 
-.fieldset-initials__input[placeholder] {
+.fieldset-initials__input::placeholder {
   font-family: $font-family-base;
   padding-left: 23px;
+  padding-right: 23px;
   font-weight: 700;
   font-size: 18px;
   color: $black;

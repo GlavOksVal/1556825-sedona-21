@@ -3,6 +3,12 @@
   min-height: 260px;
 }
 
+.advantages__img-pic {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 @media (min-width: $tablet-width) {
   .advantages__item-img {
     min-height: 256px;

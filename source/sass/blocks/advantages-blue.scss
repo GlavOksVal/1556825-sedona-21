@@ -35,11 +35,11 @@
   }
 }
 
-.advantages__img-pic {
-  display: block;
-  width: 100%;
-  height: auto;
-}
+// .advantages__img-pic {
+//   display: block;
+//   width: 100%;
+//   height: auto;
+// }
 
 .advantages-blue--reverse .advantages-blue__box {
   padding-top: 41px;
@@ -146,13 +146,13 @@
   }
 }
 
-.advantages__item-img {
-  background-color: $background-color-photo;
-  min-height: 260px;
-}
+// .advantages__item-img {
+//   background-color: $background-color-photo;
+//   min-height: 260px;
+// }
 
-@media (min-width: $tablet-width) {
-  .advantages__item-img {
-    min-height: 256px;
-  }
-}
+// @media (min-width: $tablet-width) {
+//   .advantages__item-img {
+//     min-height: 256px;
+//   }
+// }
