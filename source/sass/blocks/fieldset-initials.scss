@@ -29,10 +29,13 @@
 
 .fieldset-initials__input {
   flex-grow: 1;
-  padding: 0 22px 0 23px;
+  padding: 0 23px 0 23px;
   height: 58px;
   background-color: $background-input;
   border: none;
+  font-weight: 700;
+  font-size: 18px;
+  color: $black;
   // width: 100px;
 }
 
@@ -47,8 +50,8 @@
 
 .fieldset-initials__input::placeholder {
   font-family: $font-family-base;
-  padding-left: 23px;
-  padding-right: 23px;
+  // padding-left: 23px;
+  // padding-right: 23px;
   font-weight: 700;
   font-size: 18px;
   color: $black;

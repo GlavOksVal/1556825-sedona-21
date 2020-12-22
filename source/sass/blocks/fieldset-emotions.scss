@@ -19,12 +19,20 @@
   resize: none;
   background-color: $background-input;
   margin-bottom: 41px;
+  font-family: $font-family-base;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+  color: $black;
+  padding-left: 19px;
+  padding-right: 10px;
+  padding-top: 11px;
 }
 
 .fieldset-emotions__textarea::placeholder {
-  padding-top: 11px;
-  padding-left: 19px;
-  padding-right: 10px;
+  // padding-top: 11px;
+  // padding-left: 19px;
+  // padding-right: 10px;
   font-family: $font-family-base;
   font-size: 18px;
   line-height: 26px;
